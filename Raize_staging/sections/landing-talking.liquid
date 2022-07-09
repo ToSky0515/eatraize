@@ -1,0 +1,167 @@
+<style>
+    section.landing-talking {
+        min-height: 548px;
+        background-image: url({{section.settings.banner_img | img_url:'master'}});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+    }
+    section.landing-talking .talking-left {
+    }
+    section.landing-talking .col-6.talking-right {
+        padding: 68px 50px;
+        width: 650px;
+    }
+    section.landing-talking .talking-right h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;  
+        margin-bottom: 10px;      
+    }
+    section.landing-talking .talking-right p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        color: #212529;       
+        margin-bottom: 60px;
+    }
+    section.landing-talking .talking-right .icon-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    section.landing-talking .talking-right .icon-list .icon-item {
+        max-width: 167px;
+        text-align: center;
+    }
+    section.landing-talking .talking-right .icon-list .icon-item img {
+        margin-bottom: 20px;
+    }
+    section.landing-talking .talking-right .icon-list .icon-item h2 {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        color: #212529;        
+    }
+    section.landing-talking .col-6 {
+        width: 50%;
+    }
+    .mobile-img {
+        display: none;
+    }
+    @media (max-width:1200px) {
+        section.landing-talking .col-6.talking-right {
+            width: 50%;
+
+        }
+        section.landing-talking .talking-right .icon-list {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        section.landing-talking .talking-right .icon-list .icon-item {
+            width:140px;
+        }
+    }
+    @media (max-width:992px) {
+        section.landing-talking {
+            background: unset;
+            display: block;
+        }
+        section.landing-talking .talking-left {
+            display: none;
+        }
+        section.landing-talking .col-6.talking-right {
+            width: 100%;
+            padding: 68px 20px;
+        }
+        section.landing-talking .talking-right h1 {
+            font-size: 30px;
+            line-height: 42px;
+        }
+        section.landing-talking .talking-right p {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        section.landing-talking .talking-right .icon-list {
+            flex-wrap: wrap;
+        }
+        section.landing-talking .talking-right .icon-list .icon-item {
+            width: 167px;
+        }
+        .mobile-img {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+<section class="landing-talking">
+    <div class="col-6 talking-left">
+    </div>
+    <div class="col-6 talking-right">
+        <h1>{{section.settings.main_title}}</h1>
+        <p>{{section.settings.sub_title}}</p>
+        {% if section.blocks.size > 0 %}
+            <div class="icon-list">
+                {% for block in section.blocks %}
+                    <div class="icon-item">
+                        <img src="{{block.settings.mark_icon | img_url:'master'}}" class="lazyload" alt="">
+                        <h2>{{block.settings.mark_text}}</h2>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+    <img class="mobile-img lazyload" alt="" src="{{section.settings.mob_banner_img | img_url:'master'}}">
+</section>
+{% schema %}
+{
+    "name": "Landing Talking",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "Banner Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "mob_banner_img",
+            "label": "Mobile Banner Image"
+        },
+        {
+            "type": "text",
+            "id": "main_title",
+            "label": "Main Title"
+        },
+        {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Title"
+        }
+        
+    ],
+    "blocks": [
+        {
+            "type" : "icon",
+            "name" : "Icon",
+            "settings" : [
+                {
+                    "type" : "image_picker",
+                    "id" : "mark_icon",
+                    "label": "Mark Icon"
+                },
+                {
+                    "type" : "text",
+                    "id" : "mark_text",
+                    "label" : "Mark Text"
+                }                
+            ]
+        }
+
+    ]
+}
+{% endschema %}

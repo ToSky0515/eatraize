@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "1641640053a922f652": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"affiliate\">\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-10 col-xl-10 col-xxl-10\">\n\t\t\t\t<div class=\"top-content-affiliate\">\n\t\t\t\t<h2>RAIZE AFFILIATES<\/h2>\n\t\t\t\t<p>Here at RAIZE, we’re on a mission to make dessert a fully enjoyable experience, from taste to nutrition. As an affiliate, you can be an important piece in spreading the word!<\/p>\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"top-content-affiliate\">\n\t\t\t\t<h3>How Does it Work?<\/h3>\n\t\t\t\t<p>As a RAIZE affiliate, you will earn 15% commission on all sales that are completed using your custom coupon code giving your followers 15% off their order. Tell your friends or audience about why you love RAIZE, show them where to order, and share your custom discount link. Get paid for the sales you drive to RAIZE.<\/p>\n\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"top-content-affiliate\">\n\t\t\t\t<h3>Who are RAIZE Affiliates?<\/h3>\n\t\t\t\t<p>Our affiliates are customers, content creators, influencers, and personalities who love RAIZE and want to share the best better-for-you cookies out there!<\/p>\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"top-content-affiliate\">\n\t\t\t\t<h3>How to Join?<\/h3>\n\t\t\t\t<p>Want in? Register here! <br><br> If you already have an account, click the button below \"Create Account\" to sign in.<br>\n\n<iframe src=\"https:\/\/socialsnowball.io\/register-form\/6439\" frameborder=\"0\" scrolling=\"no\" style=\"position: relative; width: 100%; height: 100vh; border: 0;\"><\/iframe>\t\t\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/section>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1641640053a922f652"
+  ]
+}

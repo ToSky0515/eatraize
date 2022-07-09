@@ -1,0 +1,228 @@
+<style>
+    section.landing_first .content {
+        min-height: 600px;
+        margin: auto;
+    }
+    section.landing_first .col-6 {
+        width: 50%;
+    }
+    section.landing_first .landing_first_right {
+        background-image: url("{{section.settings.banner_img | img_url: 'master'}}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        min-height: 600px;
+    }
+    section.landing_first .landing_first_right img {
+        display: none;
+    }
+    section.landing_first .landing_first_left {
+        margin: auto;
+        padding-bottom: 100px;
+    }
+    section.landing_first .landing_first_left .inner-content {
+        width: 600px;
+        padding-right: 60px;
+        float: right;
+    }
+    section.landing_first .landing_first_left h1 {
+        font-size: 45px;
+        
+        margin-bottom: 20px;
+    }
+    section.landing_first .landing_first_left .sub_title {
+        font-size: 24px;
+        color: rgb(3, 93, 255);
+        font-family: "NS";
+        margin-bottom: 50px;
+    }
+    section.landing_first .landing_first_left a {
+        padding: 20px 42px;
+        background-color: rgba(229,57,36,1);
+        border-radius: 100px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    section.landing_first .landing_first_left .sub_text {
+        margin-top: 30px;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+        color: #212529;
+        position: relative;
+    }
+    section.landing_first .landing_first_left .sub_text img {
+        margin-top: -5px;
+    }
+    section.landing_first .landing_first_left .sub_text .warnning-msg {
+        display: block;
+        font-size: 12px;
+        width: 240px;
+        background-color: #fff;
+        color: #000;
+        text-align: left;
+        padding: 10px;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        left: 213px;
+        top: -37px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s;
+    }
+    @media (max-width: 1200px) {
+        section.landing_first .landing_first_left .inner-content{
+            width:400px
+        }
+    }
+    @media (max-width: 992px) {
+        section.landing_first .landing_first_left .inner-content{
+            padding:0px;
+            width:100%;
+        }
+        section.landing_first .landing_first_left {
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        section.landing_first .landing_first_right {
+            width: 100%;
+            min-height: unset;
+            background: none;
+        }
+        section.landing_first .landing_first_right img {
+            display: block;
+            visibility: unset !important;
+            width: 100%;
+        }
+    }
+    @media (max-width: 400px) {
+        section.landing_first .landing_first_left h1 {
+            margin-top: 40px;
+        }
+        section.landing_first .content {
+            display: block;
+        }
+        section.landing_first .landing_first_left {
+            width: 320px;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-bottom: 30px;
+        }
+        section.landing_first .landing_first_right {
+            width: 100%;
+            min-height: unset;
+            background: none;
+        }
+        section.landing_first .landing_first_right img {
+            display: block;
+            visibility: unset !important;
+            width: 100%;
+        }
+        section.landing_first .landing_first_left h1 {
+            font-family: 'New Spirit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 109.3%;            
+        }
+        section.landing_first .landing_first_left .sub_title {
+            font-family: 'New Spirit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 33px;     
+        }
+        section.landing_first .landing_first_left a {
+            padding: 20px 110px;
+        }
+        section.landing_first .landing_first_left .sub_text {
+            text-align: center;      
+            padding-top: 30px; 
+            margin-top: 20px;
+        }
+        section.landing_first .landing_first_left .sub_text .warnning-msg {
+            left: 95px;
+            top: -75px;
+        }
+    }
+</style>
+<section class="landing_first">
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 landing_first_left">
+                <div class="inner-content">
+                    <h1>{{section.settings.main_title}}</h1>
+                    <p class="sub_title"> {{section.settings.sub_title}} </p>
+                    <a href="{{section.settings.btn_url}}" >{{section.settings.btn_text}}</a>
+                    <p class="sub_text"> {{section.settings.sub_text}} <img class="warning-button" src="{{'i_image.png' | asset_url }}">
+                    <span class="warnning-msg">
+                        {{section.settings.warn_text}}
+                    </span></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 landing_first_right">
+                <img src="{{section.settings.banner_img | img_url: 'master'}}" class="lazyload" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $('.sub_text img').hover(function() {
+        $('.warnning-msg').css('opacity', '1');
+        $('.warnning-msg').css('visibility', 'visible');
+        console.log('hover');
+    });
+    $('.sub_text img').mouseleave(function() {
+        $('.warnning-msg').css('opacity', '0');
+        $('.warnning-msg').css('visibility', 'hidden');
+        console.log('hover leave');
+    });
+</script>
+{% schema %}
+{
+    "name": "Landing First",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "Banner Image"
+        },
+        {
+            "type": "text",
+            "id": "main_title",
+            "label": "Main Title"
+        },
+        {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Title"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button Url"
+        },
+        {
+            "type": "text",
+            "id": "sub_text",
+            "label": "Sub Text"
+        },
+        {
+            "type": "text",
+            "id": "warn_text",
+            "label": "Warning Text"
+        }
+    ]
+}
+{% endschema %}

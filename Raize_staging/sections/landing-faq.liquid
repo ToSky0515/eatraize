@@ -1,0 +1,217 @@
+<style>
+    section.landing-faq {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    section.landing-faq .content {
+        width: 1200px;
+        margin: auto;
+    }
+    section.landing-faq .faq-button {
+        text-align: center;
+        margin-top: 100px;
+    }
+    section.landing-faq .faq-button a {
+        padding: 20px 42px;
+        background-color: rgba(229,57,36,1);
+        border-radius: 100px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    section.landing-faq .content h1 {
+        text-align: center;
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 109.3%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    section.landing-faq .content .faq-list {
+        width: 980px;
+        margin: auto;
+    }
+    section.landing-faq .content .faq-list .faq-item h2{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: #005CFF;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 0.4s;
+    }
+    section.landing-faq .content .faq-list .faq-item {
+        position: relative;
+    }
+    .accordion:after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 27px;
+        background: #005CFF;
+        right: 34px;
+        top: 33px;
+    }
+    .accordion:before {
+        content: ""!important;
+        position: absolute;
+        width: 28px;
+        height: 3px;
+        background: #005CFF;
+        top: 45px;
+        right: 22px;
+    }
+    .active:after {
+        display:none;
+    }
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+    .panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    section.landing-faq .content .faq-list .faq-item {
+        border-bottom: 1px solid #005CFF; 
+    }
+    @media (max-width: 1200px) {
+        section.landing-faq .content {
+            width: 100%;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        section.landing-faq .content .faq-list {
+            width: 100%;
+        }
+        section.landing-faq .content .faq-list .faq-item h2 {
+            padding-right: 50px;
+        }
+    }
+    @media (max-width: 800px) {
+        section.landing-faq .content {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    @media (max-width: 400px) {
+        section.landing-faq .content {
+            width: 100%;
+            padding:0px 20px;
+
+        }
+        section.landing-faq .content .faq-list {
+            width: 100%;
+        }
+        section.landing-faq .content .accordion:before {
+            top: 42px;
+            right: 0px;
+        }
+        section.landing-faq .content .faq-list .accordion:after {
+            top: 30px;
+            right: 12px;
+        }
+        section.landing-faq .content .faq-list .panel {
+            margin:0px;
+        }
+        section.landing-faq .content .faq-list .faq-item h2 {
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 0px;            
+        }
+        section.landing-faq .faq-button a {
+            padding: 20px 85px;
+
+        }
+        section.landing-faq .faq-button {
+            margin-top: 50px;
+        }
+    }
+</style>
+<section class="landing-faq">
+    <div class="content">
+        <h1>{{section.settings.header_text}}</h1>
+        {% if section.blocks.size > 0 %}
+            <div class="faq-list">
+                {% for block in section.blocks %}
+                    <div class="faq-item">
+                        <a href="javascript:;" class="accordion" ><h2>{{block.settings.item_question}}</h1></a>
+                        <p class="panel">{{block.settings.item_answer}}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %} 
+        <div class="faq-button">     
+            <a href="{{section.settings.button_url}}">{{section.settings.button_text}}</a>   
+        </div>
+    </div>
+</section>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight+ 30 + "px";
+      panel.style.height = panel.scrollHeight+ 30 + "px";
+    } 
+  });
+}
+</script>
+
+{% schema %}
+{
+    "name" : "Landing FAQ",
+    "settings" : [
+        {
+            "type":"text",
+            "id":"header_text",
+            "label":"Header Title"
+        },
+        {
+            "type":"text",
+            "id":"button_text",
+            "label":"Button Text"
+        },
+        {
+            "type":"url",
+            "id":"button_url",
+            "label":"Button Url"
+        }
+    ],
+    "blocks": [
+        {
+            "type" : "faq_itme",
+            "name" : "FAQ item",
+            "settings" : [
+                {
+                    "type": "text",
+                    "id" : "item_question",
+                    "label": "Item Question"
+                },
+                {
+                    "type": "text",
+                    "id" : "item_answer",
+                    "label": "Item Answer"
+                }      
+
+            ]
+        }
+
+    ]  
+}
+{% endschema %}

@@ -1,0 +1,150 @@
+<style>
+    section.landing-mission {
+        background: url({{section.settings.back_img | img_url:'master'}});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 610px;
+        position: relative;
+    }
+    section.landing-mission .content {
+        padding: 60px;
+        background-color: #F2EBE0;
+
+        width: 786px;
+        height: auto;
+        /* margin: auto; */
+        left: 50%;
+        top: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 1px 6px rgb(0 0 0 / 19%);
+        border-radius: 10px;
+    }
+    section.landing-mission .content h1 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;
+        color: #035DFF;       
+    }
+    section.landing-mission .content h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        color: #005CFF;
+    }
+    section.landing-mission .content p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #212529;        
+        margin-bottom: 50px;
+    }
+    section.landing-mission .content a {
+        padding: 20px 42px;
+        background-color: rgba(229,57,36,1);
+        border-radius: 100px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    section.landing-mission .content .bundle-button {
+        text-align: center;
+    }
+    @media (max-width: 992px) {
+        section.landing-mission .content {
+            width: 600px;
+
+        }
+    }
+    @media (max-width: 650px) {
+        section.landing-mission {
+            padding: 60px 20px;
+        }
+        section.landing-mission .content {
+            width:100%;
+            position: unset;
+            transform: unset;
+            padding: 20px;
+            padding-bottom: 40px;
+        }
+        section.landing-mission .content h1 {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 42px;
+        }
+        section.landing-mission .content h2 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        section.landing-mission .content p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;            
+        }
+        section.landing-mission .content .bundle-button a {
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;            
+        }
+    }
+</style>
+<section class="landing-mission">
+    <div class="content">
+        <h1>{{section.settings.header_text}}</h1>
+        <h2>{{section.settings.subtitle}}</h2>
+        <p>{{section.settings.content_text}}</p>
+        <div class="bundle-button">
+            <a href="{{section.settings.btn_url}}">{{section.settings.button_text}}</a>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name" : "Landing Reinvent",
+    "settings" : [
+        {
+            "type": "image_picker",
+            "id": "back_img",
+            "label":"Background Image"
+
+        },
+        {
+            "type":"text",
+            "id":"header_text",
+            "label":"Header Title"
+        },
+        {
+            "type":"text",
+            "id":"subtitle",
+            "label":"Subtitle"
+        },
+        {
+            "type":"text",
+            "id":"content_text",
+            "label":"Content"
+        },
+        {
+            "type":"text",
+            "id":"button_text",
+            "label":"Button Text"
+        },
+        {
+            "type":"url",
+            "id":"btn_url",
+            "label":"Button URL"
+        }
+    ]
+}
+{% endschema %}

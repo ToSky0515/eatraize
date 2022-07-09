@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "16374472451dfffaf5": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"row\">\n  <div class=\"column middle\" style= \"float : left; width:100%;text-align:center;\">\n<h1> <font color=\"#E53924\">Eat dessert guilt-free <\/font><\/h1>\n<br>  \n<\/div>\n<br>\n<br>\n<br>\n<br>\n<br>"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1638145329d44cfaa5": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "RAIZE Cookies",
+        "collection": "raize-cookies",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1638145779f89a3fb9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "RAIZE Cookie Sandwiches",
+        "collection": "cookie-sandwiches-only",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16411459826e7e3df2": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Variety Packs",
+        "collection": "variety-packs",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1641146007250d486e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Gift Card",
+        "collection": "gift-card",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1641725199f0e38711": {
+      "type": "main-collection-jumpmenu",
+      "blocks": {
+        "fe81e5bf-5fed-46ec-8d90-452622e4bbd1": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Variety Packs",
+            "collection": "variety-packs",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "adapt",
+            "show_secondary_image": true,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "6517dff6-c2d6-4049-a600-c4d32acd93ac": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Raize Cookie Sandwiches",
+            "collection": "raize-cookie-sandwiches",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "adapt",
+            "show_secondary_image": true,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "e4d6f20e-319b-485b-a0a6-937346a114e0": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Raize Cookies",
+            "collection": "raize-cookies",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "adapt",
+            "show_secondary_image": true,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "86a79fb2-239c-4630-af02-73ecef4ad773": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Gift Card",
+            "collection": "gift-card",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "adapt",
+            "show_secondary_image": true,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        }
+      },
+      "block_order": [
+        "fe81e5bf-5fed-46ec-8d90-452622e4bbd1",
+        "6517dff6-c2d6-4049-a600-c4d32acd93ac",
+        "e4d6f20e-319b-485b-a0a6-937346a114e0",
+        "86a79fb2-239c-4630-af02-73ecef4ad773"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "16374472451dfffaf5",
+    "banner",
+    "product-grid",
+    "1638145329d44cfaa5",
+    "1638145779f89a3fb9",
+    "16411459826e7e3df2",
+    "1641146007250d486e",
+    "1641725199f0e38711"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "7efdca6a-e0e7-4b81-a6e3-bcd60831dea1": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "8bc9ee17-bca4-45d2-8424-af66a2a8960b": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"circles\">  \n<center><div class=\"item\">\n    <img src=\"{{ 'Ellipse_4.png' | file_img_url: '80x80' }}\" \/>\n <br>\n   <p2>No added sugar<\/p2>\n  <\/div><\/center>\n\n <center> <div class=\"item\">\n    <img src=\"{{ 'Ellipse_4.png' | file_img_url: '80x80' }}\" \/>\n   <br>\n  <p2>Gluten-free<\/p2>\n  <\/div><\/center>\n\n  <div class=\"item\">\n    <img src=\"{{ 'Ellipse_4.png' | file_img_url: '80x80' }}\" \/>\n     <br>\n<p2>Keto-friendly<\/p2>\n  <\/div>\n\n  <div class=\"item\">\n    <img src=\"{{ 'Ellipse_4.png' | file_img_url: '80x80' }}\" \/>\n  <br>\n   <p2>1g net carbs<\/p2>\n  <\/div>\n<\/style>\n  <\/div>\n<\/div>\n<br>\n<br>"
+          }
+        },
+        "d43cc557-5b87-4703-8bf8-d83b88ddae88": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Nutrition Facts",
+            "content": "<p>{{ product.metafields.RaizeCookies.nutrition_facts | metafield_tag }}<\/p><p><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "53bd1884-caeb-4c92-bb1d-35a3a62bfa05": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.my_fields.twochipingredients | metafield_tag }}<\/p><p><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "243a5446-778e-4541-a714-ffe0c2064517": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "FAQ",
+            "content": "<p><strong>How much is shipping, and when will my order arrive? <\/strong><\/p><p><br\/><\/p><p>After receiving your order, we aim to send your cookies within 24 hours. Shipping through UPS Ground is included on order of $45 or more, with the option to pay for expedited shipping.<\/p><p><br\/><\/p><p>UPS Ground delivery timelines:<br\/>1-3 Days: Mid-Atlantic\/Northeast<br\/>2-4 Days: Midwest\/Chicago<br\/>3-5 Days: Florida\/Texas<br\/>4-6 Days: San Francisco\/Los Angeles<\/p><p><br\/><\/p><p>If your order seems to be delayed, please reach out to <a href=\"mailto:hello@eatraize.com\">hello@eatraize.com<\/a>.<\/p><p><br\/><\/p><p><strong>How long will my cookies last after I receive them?<\/strong><\/p><p><br\/><\/p><p>Since RAIZE cookies are preservative-free, we recommend consuming them within two weeks of delivery. Freezing will extend the shelf life to six months - allow to thaw at room temperature before consuming. RAIZE cookies stay fresh best when stored in an air-tight container, and we do not recommend storing in the refrigerator.<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "7efdca6a-e0e7-4b81-a6e3-bcd60831dea1",
+        "subtitle",
+        "description",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "8bc9ee17-bca4-45d2-8424-af66a2a8960b",
+        "d43cc557-5b87-4703-8bf8-d83b88ddae88",
+        "53bd1884-caeb-4c92-bb1d-35a3a62bfa05",
+        "243a5446-778e-4541-a714-ffe0c2064517"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1641291733e2341a23": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"traditional product-detail-traditions\">\n    <div class=\"container\">\n        <h2>Everything we bake is<\/h2>\n        <div class=\"cookies\">\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/nosugar.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>No Added Sugar<\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/lowcarb.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>Low Carb <span>(1-3g Net Carbs)<\/span><\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/glutenfree.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>Gluten-free<\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/nosweet.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>No Artificial Sweeteners <span>or Preservatives<\/span><\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/nongmo.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>Non-GMO<\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/ketofriendly.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>Keto-friendly<\/h3>\n            <\/div>\n            <div class=\"cookies-detail\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/kosher.png?v=1641840207\" class=\"img-fluid\" alt=\"img\">\n                <h3>Certified Kosher<\/h3>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/section>"
+      }
+    },
+    "16412934940fb689d4": {
+      "type": "apps",
+      "blocks": {
+        "ea4d4ab9-b9c0-4b7e-bf1a-2be3c142d78e": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        }
+      },
+      "block_order": [
+        "ea4d4ab9-b9c0-4b7e-bf1a-2be3c142d78e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16462753494c567a39": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\n  var _learnq = _learnq || [];\n  var item = {\n    Name: {{ product.title|json }},\n    ProductID: {{ product.id|json }},\n    Categories: {{ product.collections|map:'title'|json }},\n    ImageURL: \"https:{{ product.featured_image.src|img_url:'grande' }}\",\n    URL: \"{{ shop.secure_url }}{{ product.url }}\",\n    Brand: {{ product.vendor|json }},\n    Price: {{ product.price|money|json }},\n    CompareAtPrice: {{ product.compare_at_price_max|money|json }}\n  };\n  _learnq.push(['track', 'Viewed Product', item]);\n  _learnq.push(['trackViewedItem', {\n    Title: item.Name,\n    ItemId: item.ProductID,\n    Categories: item.Categories,\n    ImageUrl: item.ImageURL,\n    Url: item.URL,\n    Metadata: {\n      Brand: item.Brand,\n      Price: item.Price,\n      CompareAtPrice: item.CompareAtPrice\n    }\n  }]);\n<\/script>"
+      }
+    },
+    "1654634301c2add559": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\nvar classname = document.getElementsByClassName(\"product-form__submit button button--full-width button--primary\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "1641291733e2341a23",
+    "16412934940fb689d4",
+    "16462753494c567a39",
+    "1654634301c2add559"
+  ]
+}

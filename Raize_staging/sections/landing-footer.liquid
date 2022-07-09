@@ -1,0 +1,75 @@
+<style>
+    section.landing-footer {
+        
+        background: #005CFF;
+    }
+    section.landing-footer .content {
+        width: 1200px;
+        margin: auto;
+    }
+    section.landing-footer .image-list {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+    }
+    section.landing-footer .image-list .image-item {
+        width: 16.66%;
+    }
+    @media (max-width: 1200px) {
+        section.landing-footer .content {
+            width: 100%;
+
+        }
+        section.landing-footer .image-list {
+            flex-wrap: wrap;
+        }
+    }
+    @media (max-width: 400px) {
+        section.landing-footer .content {
+            padding: 40px 20px;
+            width: 100%;
+
+        }
+        section.landing-footer .image-list {
+            padding: 0px;
+            justify-content: unset;
+            flex-wrap: wrap;
+        }
+        section.landing-footer .image-list img {
+            width: 33.33%;
+        }
+    }
+</style>
+<section class="landing-footer">
+    <div class="content">
+        {% if section.blocks.size > 0 %}
+            <div class="image-list">
+                {% for block in section.blocks %}
+                    <img src="{{block.settings.img_item | img_url:'master'}}" class="lazyload" alt="">
+                {% endfor %}
+            </div>
+        {% endif %}        
+    </div>
+</section>
+{% schema %}
+{
+    "name" : "landing-footer",
+    "blocks": [
+        {
+            "type" : "footer_img_item",
+            "name" : "Image item",
+            "settings" : [
+                {
+                    "type": "image_picker",
+                    "id" : "img_item",
+                    "label": "Image Item"
+                }      
+
+            ]
+        }
+
+    ]  
+}
+{% endschema %}

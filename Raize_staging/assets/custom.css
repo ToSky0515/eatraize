@@ -1,0 +1,6045 @@
+:root {
+    --bs-body-font-size: 16px;
+}
+
+/**
+Buttons
+------------------------  */
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Black.eot');
+    src: url('SofiaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Black.woff2') format('woff2'),
+        url('SofiaPro-Black.woff') format('woff'),
+        url('SofiaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/**/    
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Black.eot');
+    src: url('SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Bold.woff2') format('woff2'),
+        url('SofiaPro-Bold.woff') format('woff'),
+        url('SofiaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro.eot');
+    src: url('SofiaPro.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro.woff2') format('woff2'),
+        url('SofiaPro.woff') format('woff'),
+        url('SofiaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Medium.eot');
+    src: url('SofiaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Medium.woff2') format('woff2'),
+        url('.woff') format('woff'),
+        url('SofiaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Light.eot');
+    src: url('SofiaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Light.woff2') format('woff2'),
+        url('SofiaPro-Light.woff') format('woff'),
+        url('SofiaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-SemiBold.eot');
+    src: url('SofiaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold.woff2') format('woff2'),
+        url('SofiaPro-SemiBold.woff') format('woff'),
+        url('SofiaPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-ExtraLight.eot');
+    src: url('SofiaPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-ExtraLight.woff2') format('woff2'),
+        url('SofiaPro-ExtraLight.woff') format('woff'),
+        url('SofiaPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-UltraLight.eot');
+    src: url('SofiaPro-ExtraLight.eot') format('embedded-opentype'),
+        url('SofiaPro-UltraLight.woff2') format('woff2'),
+        url('SofiaPro-UltraLight.woff') format('woff'),
+        url('SofiaPro-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-UltraLightItalic.eot');
+    src: url('SofiaPro-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-UltraLightItalic.woff2') format('woff2'),
+        url('SofiaPro-UltraLightItalic.woff') format('woff'),
+        url('SofiaPro-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Gentle';
+    src: url('MADEGentle.eot');
+    src: url('MADEGentle.eot?#iefix') format('embedded-opentype'),
+        url('MADEGentle.woff2') format('woff2'),
+        url('MADEGentle.woff') format('woff'),
+        url('MADEGentle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+@font-face {
+    font-family: 'New Spirit';
+    src: url('NewSpirit-Regular.eot');
+    src: url('NewSpirit-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NewSpirit-Regular.woff2') format('woff2'),
+        url('NewSpirit-Regular.woff') format('woff'),
+        url('NewSpirit-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Spirit';
+    src: url('NewSpirit-Bold.eot');
+    src: url('NewSpirit-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NewSpirit-Bold.woff2') format('woff2'),
+        url('NewSpirit-Bold.woff') format('woff'),
+        url('NewSpirit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('Neue Haas Unica Black'), local('NeueHaasUnica-Black'),
+        url('NeueHaasUnica-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-Black.woff2') format('woff2'),
+        url('NeueHaasUnica-Black.woff') format('woff'),
+        url('NeueHaasUnica-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-Medium.eot');
+    src: local('Neue Haas Unica Medium'), local('NeueHaasUnica-Medium'),
+        url('NeueHaasUnica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-Medium.woff2') format('woff2'),
+        url('NeueHaasUnica-Medium.woff') format('woff'),
+        url('NeueHaasUnica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-ExtBlkIta.eot');
+    src: local('Neue Haas Unica ExtBlk Ita'), local('NeueHaasUnica-ExtBlkIta'),
+        url('NeueHaasUnica-ExtBlkIta.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-ExtBlkIta.woff2') format('woff2'),
+        url('NeueHaasUnica-ExtBlkIta.woff') format('woff'),
+        url('NeueHaasUnica-ExtBlkIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-ExtraBold.eot');
+    src: local('Neue Haas Unica Extra Bold'), local('NeueHaasUnica-ExtraBold'),
+        url('NeueHaasUnica-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-ExtraBold.woff2') format('woff2'),
+        url('NeueHaasUnica-ExtraBold.woff') format('woff'),
+        url('NeueHaasUnica-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-Bold.eot');
+    src: local('Neue Haas Unica Bold'), local('NeueHaasUnica-Bold'),
+        url('NeueHaasUnica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-Bold.woff2') format('woff2'),
+        url('NeueHaasUnica-Bold.woff') format('woff'),
+        url('NeueHaasUnica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-ExtraLight.eot');
+    src: local('Neue Haas Unica Extra Light'), local('NeueHaasUnica-ExtraLight'),
+        url('NeueHaasUnica-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-ExtraLight.woff2') format('woff2'),
+        url('NeueHaasUnica-ExtraLight.woff') format('woff'),
+        url('NeueHaasUnica-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-Regular.eot');
+    src: local('Neue Haas Unica Regular'), local('NeueHaasUnica-Regular'),
+        url('NeueHaasUnica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-Regular.woff2') format('woff2'),
+        url('NeueHaasUnica-Regular.woff') format('woff'),
+        url('NeueHaasUnica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-ExtraBlack.eot');
+    src: local('Neue Haas Unica Extra Black'), local('NeueHaasUnica-ExtraBlack'),
+        url('NeueHaasUnica-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-ExtraBlack.woff2') format('woff2'),
+        url('NeueHaasUnica-ExtraBlack.woff') format('woff'),
+        url('NeueHaasUnica-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('NeueHaasUnica-Thin.eot');
+    src: local('Neue Haas Unica Thin'), local('NeueHaasUnica-Thin'),
+        url('NeueHaasUnica-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnica-Thin.woff2') format('woff2'),
+        url('NeueHaasUnica-Thin.woff') format('woff'),
+        url('NeueHaasUnica-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/**
+General
+------------------------  */
+.jump-collection-section {
+    scroll-margin-top: 280px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    overflow-x: hidden;
+    background-color: #F2EBE0;
+}
+
+.hidden {
+    display: none!important;
+}
+
+main {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form */
+
+.customer
+.field input,
+.customer select,
+.field__input,
+.select__select {
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,.55);
+}
+
+.customer .field input, 
+.customer select, 
+.field__input, 
+.select__select {
+    color: #202a36;
+}
+
+.customer .field label, 
+.field__label {
+    color: #202a36;
+}
+
+
+
+#MainContent button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.customer .field label, .field__label {
+    font-size: 1.2em;
+    top: 1.4rem;
+    color: #707781;
+}
+
+
+.customer .field input:-webkit-autofill~label, 
+.customer .field input:focus~label, 
+.customer .field input:not(:placeholder-shown)~label, 
+.field__input:-webkit-autofill~.field__label, 
+.field__input:focus~.field__label, 
+.field__input:not(:placeholder-shown)~.field__label {
+    font-size: 1rem;
+    top: 0.7em;
+    color: #202a36;
+}
+
+#MainContent button:not(#MainContent .faq .accordion-item button, .slick-next, .slick-prev, .slick-dots button, #predictive-search-option-search-keywords button, .okeReviews.okeReviews--theme button) {
+
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    background: #e53924;
+    padding: 16px 40px;
+    border-radius: 30px;
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #f2ebe0;
+    border: none;
+    display: inline-block;
+    color: #F2EBE0;
+    height: auto;
+    display: inline-block;
+
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+}
+
+
+#MainContent button:hover:not(#MainContent .faq .accordion-item button, .slick-next, .slick-prev, .slick-dots button, #predictive-search-option-search-keywords button, .okeReviews.okeReviews--theme button) {
+    background: #005CFF;
+}
+
+/*
+Slick JS
+*/
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+}
+
+.slick-dots li button:hover {
+    background: none;
+}
+
+.slick-dots li button::before {
+    content: "";
+    background: #005cff;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    display: block;
+}
+.slick-next, .slick-prev {
+    z-index: 10;
+}
+.slick-prev:before,
+.slick-next:before{
+    opacity: 1;
+    font-size: 25px;
+    color: #202a36;
+}
+
+.spaced-section:last-child {
+    margin-bottom: 0;
+}
+
+.slick-slide .products-start .card-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    #MainContent button:not(#MainContent .faq .accordion-item button, .slick-next, .slick-prev, .slick-dots button, #predictive-search-option-search-keywords button, .okeReviews.okeReviews--theme button) {
+        font-size: 14px;
+        min-height: 4.5rem;
+        padding: 0 30px;
+        display: inline-flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .product-form__buttons button.button--full-width {
+        width: 100%!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .slick-prev {
+        left: 0;
+    }
+    .slick-next {
+        right: 0;
+    }    
+}
+
+
+/**
+Header
+------------------------  */
+
+/* Top Bar */
+.top-bar{
+    background: #F4CBA0;
+    width: 100%;
+}
+
+.darkHeader{
+    position: fixed;
+    z-index: 47;
+    width: 100%;
+    top: 0;
+}
+
+.top-bar h2{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #005CFF;
+    padding: 5px 5px;
+    margin-bottom: 0;
+}
+.top-bar h2 span{
+    text-transform: uppercase;
+}
+
+
+/* Header */
+
+.header {
+    background: #F2EBE0;
+    transition: .7s all ease-in-out;
+    padding: 0;
+    border-bottom: 1px solid #AFAFAF;
+    -webkit-transition: .7s all ease-in-out;
+    -moz-transition: .7s all ease-in-out;
+    -ms-transition: .7s all ease-in-out;
+    -o-transition: .7s all ease-in-out;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Promo-Banner Promo-Banner Promo-Banner"
+        "Logo-Left Logo-Center Logo-Right"
+        "Navigation-Left Navigation-Center Navigation-Right"
+        "Extra Extra Extra";
+
+}
+
+.header .logo-section .search-icon i{
+    color: #005FFF;
+    font-size: 25px;
+}
+.header .logo-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header .logo-section .search-icon i.fas.fa-cart-plus{
+        float: right;
+}
+.header nav  i{
+    color: #005FFF;
+    font-size: 20px;
+}
+
+.header__icons .cart-count-bubble {
+    background-color: #e53924!important;
+}
+
+#navbarSupportedContent li{
+    margin: 0 30px 0 0;
+}
+#navbarSupportedContent li a{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005FFF;
+    transition: .3s ease-in-out;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+#navbarSupportedContent li a:hover{
+    font-weight: 700;
+}
+#navbarSupportedContent li .active{
+    padding: 0 0 3px;
+    font-weight: 700;
+    border-bottom: 2px solid #005FFF;
+}
+#navbarSupportedContent ul{
+    margin: 15px 0 0;
+}
+
+.header__icon--menu {
+    z-index: 4;
+}
+
+.menu-drawer {
+    z-index: 3;
+}
+
+.header__inline-menu .header__menu-item {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #005FFF;
+    text-transform: uppercase;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.menu-drawer__navigation {
+    padding: 3em 0;
+}
+
+.menu-drawer__menu-item {
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.header__icons .header__search {
+    display: none;
+}
+
+
+/* body {
+    padding-top: 280px;
+} */
+
+#shopify-section-main-header.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.header__heading, 
+.header__heading-link {
+    grid-area: Logo-Center;
+}
+
+.header__inline-menu {
+    grid-area: Navigation-Center; 
+}
+.header>.header__search {
+    grid-area: Navigation-Left;
+    margin-left: 30px;
+}
+
+.header__icons {
+    grid-area: Navigation-Right;
+    margin-right: 30px;
+}
+
+.top-bar {
+    grid-area: Promo-Banner;
+}
+
+header .collection-jumpmenu {
+    grid-area: Extra;
+}
+
+.menu-drawer__utility-links .menu-drawer__account svg {
+    width: 20px!important;
+    height: 20px!important;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 987px) {
+
+    .header__icons .header__search {
+        display: block;
+    }
+
+    .header {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    header-drawer {
+        grid-area: Logo-Left;
+        margin-left: 10px!important;
+    }
+    .header__heading {
+        max-width: 140px;
+    }
+    .header__icons {
+        grid-area: Logo-Right;
+        margin-right: 20px;        
+    }
+    .top-bar h2 {
+        font-size: 18px;
+    }
+
+    .collection-jumpmenu .product-form__input--dropdown .form__label {
+        display: none;
+    }
+
+    .collection-jumpmenu .product-form__input--dropdown {
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+/**
+Game
+------------------------  */
+
+.game{
+    background: url(../images/game-banner.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 220px 0;
+    position: relative;
+    z-index: 25;
+}
+.game:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+background: #202a36;
+opacity: .5;
+z-index: -1;
+}
+.game h2{
+    font-family: 'New Spirit';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 1.5;
+text-align: center;
+color: #F2EBE0;
+margin: 0 0 35px;
+}
+.game a:hover{
+    background: #005CFF;
+
+}
+.game a{
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 1.5;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F2EBE0;
+    transition: .5s all ease-in-out;
+    text-transform: uppercase;
+}
+.blue-content{
+    background: #005CFF;
+    padding: 50px 0;
+
+}
+.blue-content h2 a{
+
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #F2EBE0;
+    border-bottom:2px solid #F2EBE0;
+}
+.blue-content h2{
+
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #F2EBE0;
+}
+
+/**
+Footer
+------------------------  */
+
+.footer {
+    background: #E53924;
+    padding: 83px 0 150px;
+}
+.footer img{
+    width: 70%;
+}
+.footer .social-icon{
+    padding: 0;
+    text-align: center;
+    margin: 30px 0 0;
+    width: 100%;
+}
+.footer .social-icon li:last-child{
+    margin: 0;
+}
+.footer .social-icon li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+}
+.footer .social-icon li a i{
+    color: #fcc99a;
+    font-size: 25px;
+}
+.footer .page-links{
+    padding: 0;
+    margin: 20px 0 0;
+}
+.footer .page-links li{
+margin: 0 0 15px;
+
+}
+.footer .page-links li a{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F2EBE0;
+}
+
+.footer .social-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 24px;
+    max-height: 24px;
+    color: #eecba5;
+}
+
+.footer h3{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.3;
+    color: #F2EBE0;
+    text-transform: capitalize;
+}
+.footer .custom-input input::placeholder{
+    color: #F2EBE0;
+
+}
+.footer .custom-input input{
+    border: 1px solid #F2EBE0;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 0 0 0 19px;
+    height: 50px;
+    line-height: 1.5;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #F2EBE0;
+    outline: none;
+    width: 65%;
+    margin: 0 0 30px;
+}
+.footer .subcribe-btn a{
+    background: #F4CBA0;
+    border-radius: 30px;
+    display: block;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    color: #E53924;
+}
+.footer h4{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    color: #F2EBE0;
+}
+
+.footer-logo-social-links-wrap {
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.footer-logo-social-links-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo-social-links-wrap .footer-logo {
+    text-align: center;
+}
+
+.footer-logo-social-links-wrap .footer-logo img {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 987px) {
+
+}
+
+@media screen and (max-width: 426px) {
+    .social-icon {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    footer.footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+      .footer-logo-social-links-wrap {
+        margin-bottom: 40px; 
+        margin-right: 0px;
+        
+    }    
+}
+
+/* search toggle */
+#search {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    -webkit-transform: translate(0px, -100%) scale(0, 0);
+    -moz-transform: translate(0px, -100%) scale(0, 0);
+    -o-transform: translate(0px, -100%) scale(0, 0);
+    -ms-transform: translate(0px, -100%) scale(0, 0);
+    transform: translate(0px, -100%) scale(0, 0);
+    
+    opacity: 100;
+}
+
+#search.open {
+    -webkit-transform: translate(0px, 0px) scale(1, 1);
+    -moz-transform: translate(0px, 0px) scale(1, 1);
+    -o-transform: translate(0px, 0px) scale(1, 1);
+    -ms-transform: translate(0px, 0px) scale(1, 1);
+    transform: translate(0px, 0px) scale(1, 1); 
+    opacity: 1;
+    z-index: 1000;
+}
+
+#search .search-input {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    border: 0px;
+    margin: 0px auto;
+    margin-top: -51px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+        color: #202a36;
+    font-family: 'Sofia Pro';
+    font-weight: 500;
+}
+#search .search-submit-buton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 61px;
+    color: #fff;
+    background-color: #fb1900;
+    border: 1px solid #f2ebe0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Sofia Pro';
+    text-transform: uppercase;
+    padding: 0.4em 2em;
+    transform: translateX(-50%);    
+}
+#search .close {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: #202a36;
+    background-color: transparent;
+    border-color: transparent;
+    opacity: 1;
+    padding: 10px 17px;
+    font-size: 27px;
+}
+
+#MainContent .search button {
+    height: auto;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#MainContent .template-search .search__button {
+    margin: 4px 5px;
+    background: none;
+    color: #000;
+}
+
+/*aside*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 340px;
+    height: 100%;
+    background: #F2EBE0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 1rem;
+    transition: 1s all ease-in-out;
+    transform: translate(100%);
+    z-index: 1000;
+  }
+  
+  .show-sidebar {
+    transform: translate(0);
+  }
+   .sidebar-toggle:focus {
+    outline: none;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1.5rem;
+    background-color: #F2EBE0;
+    border-bottom: 1px solid rgba(129,129,129,.2);
+  }
+.sidebar .shopping-cart-txt {
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #005cff;
+    text-transform: uppercase;
+      margin: 0;
+  }
+  .sidebar .addtocart-shopingcart .side-shopping-cart{
+    border: none !important;
+    padding: 15px;
+    background-color: #F2EBE0;
+}
+.sidebar .addtocart-shopingcart .side-shopping-cart ul li{
+    display: inline-block;
+    color: #BBB;
+    font-size: 13px;
+    margin: 0 2px 0 0;
+}
+     .sidebar-header .close-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    color: #fc1800;
+    transition: 1s ease all;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+  }
+  .sidebar .addtocart-shopingcart .side-shopping-cart .crossicon a{
+
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fc1800;
+
+  }
+  .sidebar .addtocart-shopingcart .side-shopping-cart .crossicon a:hover{
+    background-color: #FFF;
+    box-shadow: 0 0 3px rgb(0 0 0 / 10%);
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.5;
+  }
+   .sidebar .addtocart-shopingcart .side-shopping-cart h3{
+
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    font-family: 'Sofia Pro';
+    font-weight: 500;
+
+  }
+  .sidebar .addtocart-shopingcart .side-shopping-cart h3 span{
+    float: right;
+  }
+  
+      .sidebar-header .close-btn:focus {
+    outline: none;
+  }
+  
+     .sidebar-header .close-btn:hover {
+    color: #202a36;
+    transform: rotate(360deg);
+  }
+  .sidebar .total-section-cart ul li{
+    display: inline-block;
+    color: #005cff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Sofia Pro';
+    margin: 0 0 20px;
+        padding: 0 15px;
+  }
+  .sidebar .total-section-cart ul li:nth-child(2){
+    font-weight: 600;
+    font-size: 18px;
+    float: right;
+    margin: 0 15px 0 0;
+    color: #fc1900;
+  }
+   .sidebar .total-section-cart .cartbutton-shoppingcart{
+    padding: 0 15px;
+   }
+   .sidebar .total-section-cart .cartbutton-shoppingcart a{
+        
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+    border: none;
+    width: 100%;
+    background: #e53924;
+    color: #F2EBE0;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Sofia Pro';
+    margin: 0 0 20px;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+  }
+      .sidebar .total-section-cart .checkoutbutton-shoppingcart{
+     padding: 0 15px;
+
+      }
+     .sidebar .total-section-cart .checkoutbutton-shoppingcart a{
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+    border: none;
+    width: 100%;
+    background: #e53924;
+    color: #F2EBE0;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Sofia Pro';
+    margin: 0 0 20px;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+  }
+/*product*/
+.product-inner-page{
+    background: #F2EBE0;
+    padding: 50px 0;
+}
+.product-inner-page h1,
+.collection-hero__title{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.5;
+    color: #005CFF;
+    margin: 0 0 50px;
+}
+.featured-collection {
+    margin-bottom: 6rem;
+}
+
+
+.product-inner-page .products-start-inner p{
+    margin: 0 0 35px;
+    height: 88px;
+}
+.product-inner-page .products-start-inner h3 a{
+    margin: 0 0 10px;
+}
+/* .products-start-inner{
+    margin: 0 0 70px;
+    padding: 0 20px 0 0;
+} */
+
+.media > *:not(.zoom):not(.deferred-media__poster-button),
+.media model-viewer {
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.media > img {
+  object-fit: cover;
+  object-position: center center;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.media.media--hover-effect > img + img {
+  opacity: 0;
+}
+
+.product-inner-page .products-start-inner h4{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 10px;
+}
+/*product-detail*/
+
+.review_product_detail{
+  background-color: #fff;
+}
+.review_product_detail .review_bio{
+  position: relative;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #202a36;
+  border-bottom: 1px solid #202a36;
+} 
+.review_product_detail .review_bio h4{
+  font-family: 'Sofia Pro';
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.review_product_detail .review_bio img.rounded-circle{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  object-position: center center;
+}
+.review_product_detail .review_bio p{
+  font-family: 'Sofia Pro';
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #c3002f;
+}
+.review_product_detail .review_bio p i{
+  padding-right: 5px;
+}
+.review_product_detail .review_bio a{
+  color: #fff;
+}
+.review_product_detail .star_review{
+  padding: 10px 20px;
+}
+.review_product_detail .star_review i{
+  color: #fc1900;
+  font-size: 16px;
+}
+.review_product_detail .content_para h2 a{
+  color: #202a36;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.review_product_detail .content_para p{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+.review_product_detail ul{
+  margin: 0;
+  padding: 0;
+}
+.review_product_detail .review_left_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.295);
+  margin-top: 10px;
+}
+.review_product_detail .review_left_bottom ul li{
+  display: inline-block;
+}
+.review_product_detail .review_left_bottom ul li a{
+  padding-left: 10px;
+  color: #fc1900;
+}
+.review_product_detail .review_left_bottom ul li a i{
+  padding-right: 5px;
+}
+.right_reviews_sec .your_reviews{
+  padding-left: 10px;
+}
+.right_reviews_sec .your_reviews h3{
+  font-family: 'Sofia Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  color: #fc1900;
+}
+.right_reviews_sec .your_reviews h4{
+  font-family: 'Sofia Pro';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  color: #202a36;
+}
+.right_reviews_sec .your_reviews .form h5{
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.right_reviews_sec .your_reviews .form textarea{
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #fc1900;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  padding: 10px;
+}
+.right_reviews_sec .your_reviews .form label{
+}
+.right_reviews_sec .your_reviews .form input{
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #fc1900;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  padding: 10px;
+}
+.right_reviews_sec .your_reviews .form .submit{
+    padding: 12px 20px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-family: 'Sofia Pro';
+    line-height: 1.5;
+    background-color: #202a36;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: inset 0 -2px 0 rgb(0 0 0 / 15%);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+    margin: 20px 0 0;
+}
+
+/* rating_stars start*/
+
+.right_reviews_sec .your_reviews .rating_stars{
+  color: #c3002f;
+}
+.right_reviews_sec .your_reviews .rating_stars .rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.right_reviews_sec .your_reviews .rating_stars .rating i{
+  margin-right: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.right_reviews_sec .your_reviews .rating_stars .rating label{
+  color: #fff !important;
+  text-shadow: 0 0 2px #c3002f;
+}
+.right_reviews_sec .your_reviews .rating_stars .rating input {
+display: none !important;
+}
+.right_reviews_sec .your_reviews .rating_stars .rating label:hover,
+.right_reviews_sec .your_reviews .rating_stars .rating label:hover ~ label,
+.right_reviews_sec .your_reviews .rating_stars .rating input:checked + label,
+.right_reviews_sec .your_reviews .rating_stars .rating input:checked + label ~ label {
+color: #fc1900 !important; /* Personal color choice. Lifted from Bootstrap 4 */
+}
+.review{
+padding: 100px 0;
+}
+.review h1{
+    font-family: 'New Spirit';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 1.5;
+text-align: center;
+color: #005CFF;
+margin: 0 0 75px;
+}
+
+.product-detail .slick-next:before{
+    font-size: 28px;
+}
+.product-detail .slick-prev:before{
+    font-size: 28px;
+
+}
+.product-detail .slick-prev{
+    left: 25px;
+}
+.product-detail .slick-next{
+    right: 25px;
+
+
+}
+.product-detail .slick-arrow{
+    border: 1px solid #fff;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.product-detail .accordion-button::after{
+    background: url(../images/accordion-arrow-product.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 35px;
+    height: 15px;
+}
+.accordion-button:not(.collapsed)::after{
+    background: url(../images/accordion-arrow-product.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* .cookies-display .cookies-display-start h2{
+    font-family: Neue Haas Unica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+} */
+
+/*contact-us*/
+.contact-us{
+    background: #F4CBA0;
+    padding: 75px 0 100px;
+}
+.contact-us h6{
+font-family: 'New Spirit';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 1.5;
+text-align: center;
+color: #E53924;
+margin: 0 0 35px;
+}
+
+.contact-us a{
+font-family: Neue Haas Unica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #F2EBE0;
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    height: 65px;
+    text-transform: uppercase;
+}
+
+.form-status {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.form-status .icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*affiliate*/
+.affiliate{
+    padding: 80px 0 80px;
+    position: relative;
+}
+.affiliate:before{
+    content: '';
+    background-image: url(cookie-1-top-right.png);
+    position: absolute;
+    width: 140px;
+    height: 205px;
+    background-repeat: no-repeat;
+    right: 0;
+}
+.affiliate:after{
+    content: '';
+    background-image: url(cookie-2-bottom-left.png);
+    position: absolute;
+    width: 140px;
+    height: 235px;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+}
+.affiliate .top-content-affiliate h2{
+
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    color: #E53924;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+}
+.affiliate .top-content-affiliate h3{
+    font-family: 'New Spirit';
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 1.3;
+color: #005CFF;
+text-transform: capitalize;
+margin: 0 0 16px;
+
+}
+.affiliate .top-content-affiliate p{
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.5;
+color: #202a36;
+}
+.affiliate .top-content-affiliate p a{
+        color: #fc1800;
+}
+.affiliate .top-content-affiliate{
+    margin: 0 0 40px;
+}
+.affiliate .top-content-affiliate ul{
+        padding: 0 0 0 30px;
+}
+.affiliate .top-content-affiliate ul li{
+    font-family: 'Sofia Pro';
+    list-style: disc;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.5;
+color: #202a36;
+}
+.affiliate-banner{
+    background: url(../images/affiliate-banner.png);
+        background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/*faq*/
+
+/*rewards*/
+.reward-banner h2{
+ font-family: 'New Spirit';
+font-style: normal;
+font-weight: bold;
+font-size: 65px;
+line-height: 1.5;
+text-align: center;
+color: #FFFFFF;  
+margin: 0 0 30px; 
+}
+.reward-banner p{
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 1.5;
+text-align: center;
+color: #FFFFFF;
+margin: 0 0 50px;
+}
+.reward-banner a:hover{
+    background: #005FFF;
+}
+.reward-banner a{
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 1.5;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F2EBE0;
+    transition: .5s all ease-in-out;
+    text-transform: uppercase;
+}
+.reward-banner{
+background: url(../images/reward-banner.png);
+background-repeat: no-repeat;
+background-size:cover ;
+background-position:100% 100%;
+padding: 240px 0;
+position: relative;
+z-index: 20;
+}
+.reward-banner:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #202a36;
+    opacity: .5;
+    z-index: -1;
+}
+.how-it-work{
+    padding: 85px 0 100px;
+}
+.how-it-work h2{
+
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 48px;
+
+}
+.how-it-work .icon-body{
+
+    background: #F7DCD3;
+    border-radius: 30px;
+    padding: 40px 40px;
+
+}
+.how-it-work .icon-body h2{
+
+    background: #C4C4C4;
+    width: 111px;
+    height: 111px;
+    text-align: center;
+    line-height: 111px;
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #202a36;
+    border-radius: 50%;
+    margin: 0 auto 35px;
+
+}
+.how-it-work .icon-body p{
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+
+}
+.earn-points{
+    padding: 74px 0 120px;  
+    background: #E53924;
+}
+
+.points-body {
+    background: #F2EBE0;
+    width: 348px;
+    height: 348px;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin: 0 auto 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earn-points h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #F2EBE0;
+    margin: 0 0 48px;
+}
+
+.earn-points h3{
+    text-align: center;
+    font-family: New Spirit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #005cff;
+}
+
+.image-text{
+    background: #005CFF;
+    padding: 300px 0;
+}
+.image-text .padding-left{
+    padding: 0 15px 0 40px;
+}
+.image-text .padding-right{
+    padding: 0 40px 0 15px;
+}
+.image-text h3{
+
+    text-align: center;
+    background: #F2EBE0;
+    border-radius: 30px;
+    padding: 195px 0;
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #202a36;
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    .image-banner{
+        padding: 120px 0;
+    }
+    .game{
+        padding: 180px 0;
+    }
+
+    .about-banner{
+            padding: 215px 0;
+    }
+    .reward-banner{
+        padding: 180px 0;
+    }
+    .product-detail .slider-nav .slick-slide {
+        margin: 0 10px 0 0px;
+        width: 90px !important;
+    }
+    .product-detail .answer-slider {
+        width: 191px;
+        height: auto;
+        margin: 0 auto;
+        display: table;
+    }
+    .product-detail .width-set{
+        width: 0;
+    }
+    .product-detail .slider-nav {
+        padding: 0 !important;
+            height: 320px;
+    }
+
+    .product-detail .draggable{
+        padding: 0 50px !important;
+    }
+}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {
+    .image-banner{
+        padding: 225px 0;
+    }
+    .game{
+        padding: 150px 0;
+    }
+
+    .about-banner{
+            padding: 180px 0;
+    }
+    .reward-banner{
+        padding: 155px 0;
+    }
+    .product-detail .slider-nav .slick-slide {
+        margin: 0 10px 0 0px;
+            width: 165px !important;
+    }
+    .product-detail .answer-slider {
+        width: 191px;
+        height: auto;
+        margin: 0 auto;
+        display: table;
+    }
+    .product-detail .width-set{
+        width: 0;
+    }
+    .product-detail .slider-nav {
+        padding: 0 !important;
+            height: 320px;
+    }
+
+    .product-detail .draggable{
+        padding: 0 50px !important;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1444px) {
+    .image-banner{
+        padding: 205px 0;
+    }
+
+    .about-banner {
+        padding: 130px 0;
+    }
+    .game{
+        padding: 135px 0;
+    }
+    .reward-banner{
+        padding: 135px 0;
+    }
+    .product-detail .slider-nav .slick-slide {
+        margin: 0 10px 0 0px;
+            width: 165px !important;
+    }
+    .product-detail .answer-slider {
+        width: 191px;
+        height: auto;
+        margin: 0 auto;
+        display: table;
+    }
+    .product-detail .width-set{
+        width: 0;
+    }
+    .product-detail .slider-nav {
+        padding: 0 !important;
+            height: 320px;
+    }
+
+    .product-detail .draggable{
+        padding: 0 50px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .image-banner{
+        padding: 165px 0;
+    }
+    .game {
+        padding: 110px 0;
+
+    }
+    .product-detail .slider-nav{
+        padding: 0;
+        height: auto;
+    }
+    .product-detail .width-set{
+        width: 100% !important;
+    }
+    .product-detail .slider-nav .slick-slide{
+        width: 117px !important ;
+        margin: 0;
+    }
+    .product-detail .answer-slider{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-banner p{
+        width: 80%;
+    }
+    .about-banner{
+        padding: 140px 0;
+    }
+    .reward-banner{
+        padding: 100px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.product-detail .slider-nav{
+    padding: 0;
+    height: auto;
+}
+.product-detail .width-set{
+    width: 100% !important;
+}
+.product-detail .slider-nav .slick-slide{
+    width: 90px !important ;
+    margin: 0;
+}
+.product-detail .answer-slider{
+    width: 100%;
+    height: auto;
+}
+    .image-banner{
+        padding: 95px 0;
+    }
+
+    .products-start p{
+        height: 120px !important;
+    }
+
+.affiliate-banner{
+    padding: 85px 0;
+        background-position: center;
+}
+.game{
+    background-position: center;
+    padding: 90px 0;
+}
+footer .social-icon {
+    padding: 0;
+    text-align: center;
+    margin: 30px 0 0 0;
+    width: 80%;
+}
+footer .custom-input input{
+    width: 100%;
+}
+footer .subcribe-btn a{
+    width: 70%;
+}
+.about-home h2{
+        font-size: 38px;
+}
+.about-banner{
+    padding: 60px 0;
+}
+.reward-banner h2 {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+}
+.reward-banner p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 30px;
+}
+.reward-banner a {
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 1.5;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F2EBE0;
+    transition: .5s all ease-in-out;
+    text-transform: uppercase;
+}
+.reward-banner{
+        background-position: center;
+    padding: 100px 0;
+}
+
+.affiliate:after{
+        left: -15px;
+}
+.product-detail .right-content{
+    padding: 0;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.product-detail .slider-nav{
+    padding: 0;
+    height: auto;
+}
+.product-detail .width-set{
+    width: 100% !important;
+}
+.product-detail .slider-nav .slick-slide{
+    width: 117px !important ;
+    margin: 0;
+}
+.product-detail .answer-slider{
+    width: 100%;
+    height: auto;
+}
+.product-detail .right-content{
+    padding: 0;
+}
+
+header nav button{
+    margin: 0 auto;
+    display: table;
+    outline: none;
+    border: 2px solid #005fff !important;
+}
+
+.navbar-toggler {
+    margin-bottom: 0!important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: inherit;
+}
+.navbar-toggler:hover {
+    background: none;
+}
+
+header nav button span{
+    font-size: 30px;
+    line-height: 1.5;
+    color: #005fff;
+}
+.image-banner{
+    background-position: center;
+    background-size: cover;
+    padding: 65px 0;
+}
+.products{
+    text-align: center;
+}
+.mobil-view-position-change{
+order: 2;
+}
+.experience .left-experince-content .shop-now-btn a{
+    margin: 0 0 20px;
+}
+.about-home a{
+    width: 35%;
+}
+.game a{
+    width: 50%;
+}
+footer img {
+    width: 35%;
+}
+footer .social-icon {
+    padding: 0;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    width: 38%;
+}
+
+.we-dot-it .we-do-it-product-1{
+    padding: 0;
+    text-align: center;
+}
+.we-dot-it .we-do-it-product-2{
+    padding: 0;
+    text-align: center;
+}
+.we-dot-it .we-do-it-product-3{
+    padding: 0;
+    text-align: center;
+}
+.premium-cookies:before{
+    content: inherit;
+}
+.premium-cookies:after{
+    content: inherit;
+}
+.affiliate-banner{
+    padding: 45px 0;
+}
+.about-banner{
+        padding: 81px 0;
+}
+.about-banner h2 {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F2EBE0;
+    margin: 0 0 25px;
+}
+.about-banner p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F2EBE0;
+    width: 72%;
+    margin: 0 auto;
+}
+.about-us-content:before{
+    content: inherit;
+}
+.about-us-content .about-numbers:before{
+content: inherit;
+}
+.about-us-content .number-change:before{
+    content: inherit;
+}
+.about-us-content .number-change-1:before{
+    content: inherit;
+}
+.our-story{
+    padding: 70px 0;
+}
+.about-us-content .padding-right{
+    padding: 0 15px;
+}
+.about-us-content .padding-left{
+    padding: 0 15px;
+}
+.cookie-maker .right-maker{
+padding: 0;
+}
+.get-in-touch button,
+.shopify-challenge__button.btn{
+    width: 100%;
+}
+.game {
+        padding: 45px 0;
+}
+.reward-banner{
+    background-position: center;
+    padding: 45px 0;
+}
+.reward-banner h2 {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+
+}
+.reward-banner p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 0 25px;
+}
+.reward-banner a {
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 1.5;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F2EBE0;
+    transition: .5s all ease-in-out;
+    text-transform: uppercase;
+}
+.how-it-work .icon-body{
+    margin: 0 0 30px;
+}
+.image-text .padding-left{
+padding: 0 15px;
+}
+.image-text .padding-right{
+padding: 0 15px;
+}
+.image-text{
+    padding: 100px 0;
+}
+.faq #accordionExample .accordion-item button{
+        line-height: 1.5;
+}
+.affiliate:before{
+    content: inherit;
+}
+.affiliate:after{
+    content: inherit;
+}
+.affiliate .top-content-affiliate h2{
+        font-size: 56px;
+}
+}
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .cookies-display .cookies-display-start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header nav button{
+        margin: 0 auto;
+        display: table;
+        outline: none;
+        border: 2px solid #005fff !important;
+    }
+    .navbar-toggler:focus{
+        box-shadow: inherit;
+    }
+    header nav button span{
+        font-size: 30px;
+        line-height: 1.5;
+        color: #005fff;
+    }
+    .header .logo-set img{
+        width: 100%;
+    }
+    #navbarSupportedContent{
+        margin: 20px 0 0 0;
+    }
+
+    #navbarSupportedContent li{
+        margin: 10px 0;
+    }
+    .image-banner{
+        background-position: center;
+        padding: 80px 0;
+    }
+    #navbarSupportedContent li .active{
+        padding: 0 0 10px;
+    }
+    #navbarSupportedContent li a{
+            font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .experience .left-experince-content .shop-now-btn a{
+            margin: 0 auto 20px;
+            width: 45%;
+    }
+    .experience-content{
+            padding: 0 0 50px;
+    }
+    .testimonals .slider-section{
+        padding: 15px 25px;
+    }
+    .slick-prev {
+        left: -25px;
+    }
+    .slick-next {
+        right: -25px;
+    }
+    .about-home a{
+        width: 100%;
+    }
+    .game{
+        background-position: center;
+        padding: 0px 0;
+    }
+    .game h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        margin: 20px 0;
+    }
+
+
+    .game a {
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 45%;
+        text-align: center;
+        margin: 0px auto 25px;
+        height: 40px;
+        line-height: 1.5;
+        font-family: 'Neue Haas Unica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #F2EBE0;
+        transition: .5s all ease-in-out;
+        text-transform: uppercase;
+    }
+    .blue-content h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #F2EBE0;
+    }
+    .blue-content h2 a {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #F2EBE0;
+        border-bottom: 2px solid #F2EBE0;
+    }
+    footer img{
+        margin: 0 auto;
+        display: table;
+    }
+    footer .social-icon {
+        margin: 30px auto;
+        width: 75%;
+    }
+    footer .page-links{
+        margin: 20px 0 50px;
+    }
+    footer .custom-input input{
+        width: 100%;
+    }
+    footer .subcribe-btn a{
+        width: 100%;
+    }
+
+    .mobil-view-position-change{
+    order: 2;
+    }
+    .product-inner-page h1{
+        text-align: center;
+    }
+    .product-inner-page h6{
+        text-align: center;
+    }
+    .navbar-brand{
+        margin: 0;
+    }
+
+    .we-dot-it p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .we-dot-it h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+        color: #005CFF;
+        margin: 0 0 20px;
+    }
+    .we-dot-it .we-do-it-product-1{
+        padding: 0;
+        margin: 20px 0 0;
+    }
+    .we-dot-it .we-do-it-product-2{
+        padding: 0;
+        margin: 20px 0 0;
+
+    }
+    .we-dot-it .we-do-it-product-3{
+        padding: 0;
+        margin: 20px 0 0;
+
+    }
+    .we-dot-it .we-do-it-product h3{
+        text-align: center;
+            font-size: 22px;
+        line-height: 1.5;
+        margin: 0 0 20px;
+    }
+    .we-dot-it .we-do-it-product p{
+            font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .we-dot-it .we-do-it-product img{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .premium-cookies h2{
+            margin: 0 0 16px;
+            font-size: 26px;
+        line-height: 1.3;
+    }
+    .premium-cookies p{
+            font-size: 20px;
+        line-height: 1.5;
+    }
+    .premium-cookies table thead tr th {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 0 20px 0;
+    }
+    .premium-cookies table tbody tr td {
+        border: 3px solid #005CFF;
+        padding: 0;
+        height: auto;
+        vertical-align: middle;
+        text-align: center;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+    }
+    .premium-cookies table tbody tr td img{
+        width: 40%;
+    }
+    .premium-cookies table tbody tr td h5 {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .premium-cookies table tbody tr:nth-child(4){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(5){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(6){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(7){
+        height: auto;
+    }
+    .about-us-content:before{
+        content: inherit;
+    }
+    .about-us-content .about-numbers:before{
+        content: inherit;
+    }
+    .about-us-content .number-change:before{
+        content: inherit;   
+    }
+    .about-us-content .number-change-1:before_{
+        content: inherit;
+    }
+    .about-banner{
+            background-position: center center;
+        padding: 80px 0;
+    }
+    .about-banner h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        margin: 0 0 0;
+    }
+    .about-banner p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .our-story{
+        padding: 20px 0;
+    }
+    .our-story .story-start img{
+        width: 20%;
+    }
+    .our-story h2{
+        font-family: 20px;
+    }
+
+    .about-us-content .content-about{
+        margin: 0;
+        padding: 30px 20px;
+    }
+    .about-us-content .padding-right{
+        padding: 0;
+    }
+    .about-us-content .padding-left{
+        padding: 0;
+    }
+    .about-us-content img{
+        margin: 0;
+    }
+    .about-us-content .about-numbers{
+        margin: 0;
+    }
+    .about-us-content .content-about h2{
+        margin: 0 0 16px;
+            font-size: 22px;
+            line-height: 1.3;
+    }
+    .about-us-content{
+        margin: 0;
+        padding: 0;
+    }
+    .cookie-maker .right-maker{
+        padding: 0;
+    }
+    .get-in-touch h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    .get-in-touch p{
+            width: 100%;    
+            font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto 30px;
+    }
+
+    .get-in-touch button,
+    .shopify-challenge__button.btn {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .get-in-touch {
+        padding: 50px 0;
+    }
+    .reward-banner{
+        background-position: center;
+        padding: 20px 0;
+    }
+    .reward-banner h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px 0 15px;
+    }
+    .reward-banner p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 0 5px;
+    }
+    .reward-banner a {
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 1.5;
+        font-family: 'Neue Haas Unica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #F2EBE0;
+        transition: .5s all ease-in-out;
+        text-transform: uppercase;
+    }
+    .how-it-work .icon-body{
+            margin: 0 0 25px;
+    }
+    .image-text .padding-right{
+        padding: 0 15px;
+    }
+    .image-text .padding-left{
+        padding: 0 15px;
+    }
+    .image-text{
+        padding: 50px 0;
+    }
+    .faq #accordionExample .accordion-item button {
+        background: #005CFF;
+        border-radius: 40px;
+        margin: 0;
+        height: 60px;
+        line-height: 1.5;
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #F2EBE0;
+        padding: 0 0 0 30px;
+    }
+    .faq-change-color h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #005CFF;
+        margin: 0 0 24px;
+    }
+
+    .product-detail .right-content{
+        padding: 0;
+    }
+    .review_product_detail{
+        margin: 0 0 20px;
+    }
+    .contact-us h6 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #E53924;
+        margin: 0 0 5px;
+    }
+    .contact-us a {
+        font-family: Neue Haas Unica;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #F2EBE0;
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        height: 30px;
+        text-transform: uppercase;
+    }
+    .product-detail .slider-nav{
+        padding: 0;
+        height: auto;
+    }
+    .product-detail .width-set{
+        width: 100% !important;
+    }
+    .product-detail .slider-nav .slick-slide{
+        width: 117px !important ;
+        margin: 0;
+    }
+    .product-detail .answer-slider{
+        width: 100%;
+        height: auto;
+    }
+    .product-detail .slick-arrow{
+        width: 30px;
+        height: 30px;
+    }
+    .product-detail .slick-next:before{
+        font-size: 16px;
+    }
+    .product-detail .slick-prev:before{
+        font-size: 16px;
+    }
+    .affiliate:before{
+        content: inherit;
+    }
+    .affiliate:after{
+        content: inherit;
+    }
+    .affiliate .top-content-affiliate h2{
+        font-size: 32px;
+    }
+    .cookies-display .cookies-display-start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .both-icon-mob{
+        display: flex;
+        justify-content: right;
+        flex-direction: row-reverse;
+    }
+    .header .logo-section .search-icon i.fas.fa-cart-plus{
+        margin: 0 0 0 20px;
+    }
+
+    span.far.fa-bars{
+        color: #005fff;
+        font-size: 25px;
+    }
+    .products .slick-prev{
+        left: 0;
+    }
+
+    .products .slick-next{
+        right: 0;
+    }
+    .products .slick-next:before{
+        font-size: 25px;
+    }
+    .cookies-display .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #e53924;
+    }
+    .cookies-display .slick-dots li button:before{
+        font-size:40px ;
+        color: #e53924;
+
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    header nav button{
+        margin: 0 auto;
+        display: table;
+        outline: none;
+        border: 2px solid #005fff !important;
+    }
+    .navbar-toggler:focus{
+        box-shadow: inherit;
+    }
+    header nav button span{
+        font-size: 30px;
+        line-height: 1.5;
+        color: #005fff;
+    }
+    .header .logo-set img{
+        width: 100%;
+    }
+    #navbarSupportedContent{
+        margin: 20px 0 0 0;
+    }
+
+    #navbarSupportedContent li{
+        margin: 10px 0;
+    }
+
+    #navbarSupportedContent li .active{
+        padding: 0 0 10px;
+    }
+    #navbarSupportedContent li a{
+            font-size: 18px;
+        line-height: 1.5;
+    }
+
+
+    .cookies{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .traditional .cookies h3{
+            margin: 0 0 30px;
+    }
+
+    .testimonals .slider-section{
+        padding: 15px 25px;
+    }
+    .slick-prev {
+        left: 0px;
+    }
+    .slick-next {
+        right: 0px;
+    }
+    .about-home a{
+        width: 100%;
+    }
+    .game{
+        background-position: center;
+        padding: 0px 0;
+    }
+    .game h2 {
+        width: 50%;
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        margin: 20px auto;
+    }
+
+
+    .game a {
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 45%;
+        text-align: center;
+        margin: 0px auto 25px;
+        height: 40px;
+        line-height: 1.5;
+        font-family: 'Neue Haas Unica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #F2EBE0;
+        transition: .5s all ease-in-out;
+        text-transform: uppercase;
+    }
+    .blue-content h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #F2EBE0;
+    }
+    .blue-content h2 a {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #F2EBE0;
+        border-bottom: 2px solid #F2EBE0;
+    }
+    footer img{
+        margin: 0 auto;
+        display: table;
+    }
+    footer .social-icon {
+        margin: 30px auto;
+        width: 75%;
+    }
+    footer .page-links{
+        margin: 20px 0 50px;
+    }
+    footer .custom-input input{
+        width: 100%;
+    }
+    footer .subcribe-btn a{
+        width: 100%;
+    }
+
+
+    .our-story .story-start img{
+        width: 20%;
+    }
+    .our-story h2{
+        font-family: 20px;
+    }
+
+ 
+
+    .get-in-touch h2{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    
+    .get-in-touch button, 
+    .shopify-challenge__button.btn{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .get-in-touch {
+        padding: 50px 0;
+    }
+
+    .reward-banner{
+        background-position: center;
+        padding: 50px 0;
+    }
+    .reward-banner h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px 0 15px;
+    }
+    .reward-banner p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto 5px;
+        width: 80%;
+    }
+    .reward-banner a {
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 1.5;
+        font-family: 'Neue Haas Unica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #F2EBE0;
+        transition: .5s all ease-in-out;
+        text-transform: uppercase;
+    }
+    .how-it-work .icon-body{
+            margin: 0 0 25px;
+    }
+    .image-text .padding-right{
+        padding: 0 15px;
+    }
+    .image-text .padding-left{
+        padding: 0 15px;
+    }
+    .image-text{
+        padding: 50px 0;
+    }
+ 
+    .product-detail .right-content{
+        padding: 0;
+    }
+    .review_product_detail{
+        margin: 0 0 20px;
+    }
+    .contact-us h6 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #E53924;
+        margin: 0 0 5px;
+    }
+    .contact-us a {
+        font-family: Neue Haas Unica;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #F2EBE0;
+        background: #E53924;
+        border-radius: 30px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        height: 30px;
+        text-transform: uppercase;
+    }
+    .product-detail .slider-nav{
+        padding: 0;
+        height: auto;
+    }
+    .product-detail .width-set{
+        width: 100% !important;
+    }
+    .product-detail .slider-nav .slick-slide{
+        width: 100px !important ;
+        margin: 0;
+    }
+    .product-detail .answer-slider{
+        width: 100%;
+        height: auto;
+    }
+    .product-detail .slick-arrow{
+            width: 30px;
+        height: 30px;
+    }
+
+    .affiliate:before{
+        content: inherit;
+    }
+    .affiliate:after{
+        content: inherit;
+    }
+    .affiliate .top-content-affiliate h2{
+        font-size: 36px;
+    }
+    .cookies-display .cookies-display-start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .both-icon-mob{
+        display: flex;
+        justify-content: right;
+        flex-direction: row-reverse;
+    }
+    .header .logo-section .search-icon i.fas.fa-cart-plus{
+            margin: 0 0 0 20px;
+    }
+    span.far.fa-bars{
+        color: #005fff;
+        font-size: 25px;
+    }
+    .products .slick-prev{
+        left: 0;
+    }
+    .slick-prev:before{
+        font-size: 25px;
+    }
+    .products .slick-next{
+    right: 0;
+    }
+    .products .slick-next:before{
+        font-size: 25px;
+    }
+    .cookies-display .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #e53924;
+    }
+    .cookies-display .slick-dots li button:before{
+        font-size:40px ;
+        color: #e53924;
+
+    }
+    .premium-cookies h6{
+        text-align:left;
+    }
+    .premium-cookies table{
+        margin:100px 0 0;
+    }
+}
+
+#insta-feed, .instafeed-shopify {
+    margin-top: 0px !important;
+}
+
+@media screen and (max-width: 426px) {
+    .shopify-section {
+        margin-top: 0!important;
+    }    
+}
+
+
+
+/**
+Homepage
+------------------- **/
+
+#shopify-section-template--15345760502019__163893218213eba368 .image-banner h2 {
+    line-height: 1.5;
+    font-size: 2.8em;
+    margin-bottom: 20px;;
+}
+
+#shopify-section-template--15345760502019__163893218213eba368 .image-banner h2+h2 {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 426px) {
+    #shopify-section-template--15345760502019__163893218213eba368 .image-banner h2 {
+        font-size: 1.3em;
+        margin-bottom: .5em;
+    }
+    
+}
+
+/*
+    Collections
+*/
+
+
+
+
+/**
+Products
+------------------- **/
+
+
+.product-slick-slider .slide-image {
+    opacity: 1;
+}
+
+.product-slick-slider-main .slick-arrow {
+    border: 1px solid #fff;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 300px) and (max-width: 519px) {
+    .product-slick-slider-main .slick-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .product-slick-slider-main .slick-arrow:before {
+        font-size: 18px;
+    }
+
+}
+
+
+.product-slick-slider-main .product-slide {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.product-slick-slider-nav {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.product-slide-thumb {
+    display: block;
+    padding: 5px;
+}
+
+/* .product-slick-slider-nav .slick-list {
+    margin: 0 -5px;
+}
+
+.product-slick-slider-nav .slick-slide {
+    width: 90px!important;
+    height: 60px!important;
+    margin: 0 5px;
+} */
+.product-slick-slider-nav .slick-current img {
+    border: 1px solid #005cff;
+}
+
+.raize__accordion p {
+    margin-bottom: 30px;
+}
+
+.links-other-cookies li {
+    margin-bottom: 15px;
+}
+
+/** Product Review **/
+
+#shopify-product-reviews {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1320px;
+    margin-right: auto!important;
+    margin-left: auto!important;    
+}
+
+#shopify-product-reviews .spr-form-actions .btn-primary,
+#shopify-product-reviews .spr-summary-actions-newreview {
+    padding: 12px 20px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-family: Sofia Pro;
+    line-height: 1.5;
+    background-color: #202a36;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: inset 0 -2px 0 rgb(0 0 0 / 15%);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+    margin: 20px 0 0;
+}
+
+#shopify-product-reviews .spr-icon-star  {
+    color: #fc1900;
+}
+
+.spr-form-input-text, .spr-form-input-email, .spr-form-input-textarea {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #fc1900;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.spr-reviews .spr-review {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.spr-reviews .spr-review-header-title {
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/** Product Filter **/
+
+#main-collection-filters {
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.collection-filters {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto)
+}
+
+.facets {
+    display: block;
+    grid-column-start: span 2;
+}
+
+summary .icon-caret {
+    position: absolute;
+    height: 0.6rem;
+    right: 1.5rem;
+    /* top: calc(50% - 3px); */
+}
+
+.disclosure-has-popup {
+    position: relative;
+}
+
+.facets__summary>div, 
+.mobile-facets__summary>div {
+    display: flex;
+    align-items: center;
+}
+
+.facets__summary::marker {
+    display: none;
+    content: none;
+}
+
+.facets__display {
+    background-color: #fff!important;
+    position: absolute;
+    border: 1px solid rgba(18,18,18,.2)!important;
+    top: calc(100% + 0.5rem);
+    left: -1.2rem;
+    width: 35rem;
+    max-height: 55rem;
+    overflow-y: auto;
+}
+
+.facets__header {
+    border-bottom: 1px solid rgba(18,18,18,.2)!important;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    position: sticky;
+    top: 0;
+    background-color: #fff!important;
+    z-index: 1;
+}
+
+.facets__list {
+    padding: 0.5rem 2rem;
+}
+
+.facets__item {
+    display: flex;
+    align-items: center;
+}
+
+.facets__disclosure[open] .facets__display {
+    animation: animateMenuOpen var(--duration-default) ease;
+}
+
+a.active-facets__button.active-facets__button--light {
+    background: #c8ddfb;
+}
+
+.active-facets__button svg path {
+    stroke: #0d6efd;
+}
+
+@media screen and (min-width: 750px) {
+    .disclosure-has-popup[open]>summary+* {
+        z-index: 2;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+    .large-up-hide {
+        display: none!important;
+    }
+}
+
+/**
+Product Review
+------------------- **/
+
+.image-banner {
+
+}
+
+/**
+Contact Form
+------------------- **/
+
+
+
+button#dummy-chat-button.chat-toggle--text-button {
+    line-height: 1.5;
+}
+
+#menu-drawer.menu-drawer {
+    width:100%!important;
+    visibility: visible;
+    display: block;
+    transform: translate(0, -100%);
+    -webkit-transform: translate(0, -100%);
+    -moz-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    -o-transform: translate(0, -100%);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.js body details[open]>#menu-drawer.menu-drawer, 
+.js body details[open]>.menu-drawer__submenu {
+    visibility: visible!important;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+
+
+#slidecarthq .header.darkHeader {
+    position: relative!important;
+}
+
+
+/*
+Page Overrides
+-------------------------------------------------------------------------------------------------------- */
+
+
+.page-raize-gift-card .product__accordion {
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+
+}
+
+@media screen and (max-width: 426px) {
+
+}
+
+
+
+/*
+General
+-------------------------- */
+
+body {
+    padding-top: 155px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.title-wrapper-with-link .title {
+    margin-left: 0;
+}
+
+.shop-now-btn a,
+.about-home a {
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    background: #e53924;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #f2ebe0;
+    display: inline-block;
+    padding: 16px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.shop-now-btn a:hover{
+    background: #005fff;
+}
+
+.about-home a {
+    background: #005CFF;
+    display: inline-block;
+    width: auto;    
+}
+
+.about-home a:hover {
+    background: #e53924;
+}
+
+.product-form__buttons button {
+    background: #e53924;
+    color: #f2ebe0;
+    font-family: 'Sofia Pro';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    transition: .5s all ease-in-out;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    .shop-now-btn a,
+    .about-home a {
+        font-size: 14px;
+        min-height: 4.5rem;
+        padding: 0 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      	font-weight: 600;
+        
+     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 987px) {
+    body {
+        padding-top: 105px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-us-content .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .shop-now-btn a {
+        font-size: 14px;
+    }
+}
+
+
+/* Header */
+
+sticky-header {
+    position: fixed!important;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+
+/**
+Image Banner
+------------------------  */
+
+.image-banner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 220px 0;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+}
+
+.image-banner:before{
+        content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #202a36;
+    opacity: .5;
+    z-index: -1;
+}
+
+.image-banner h2{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.5;
+    color: #F2EBE0;
+    margin: 0 0 40px;
+
+}
+
+.image-banner .banner__heading {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F2EBE0;
+    margin: 0 auto 16px;
+}
+
+.image-banner .heading-lines-2 .banner__heading:first-child {
+    margin-bottom: 0px;
+}
+
+.image-banner .text-align-left h2.banner__heading,
+.image-banner .text-align-left p {
+    text-align: left;
+}
+
+.image-banner .text-align-right h2.banner__heading,
+.image-banner .text-align-right p {
+    text-align: right;
+}
+
+.image-banner .text-align-center h2.banner__heading,
+.image-banner .text-align-center p {
+    text-align: center;
+}
+
+.image-banner .banner__text {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.image-banner .banner__heading:last-child,
+.image-banner .banner__text:last-child {
+    margin-bottom: 0;
+}
+
+.image-banner a {
+    font-size: 16px;
+    line-height: 1.5;
+    background: #e53924;
+    padding: 16px 40px;
+    border-radius: 30px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #f2ebe0;
+    transition: .3s ease-in-out;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.image-banner a:hover{
+    background: #005fff;
+
+}
+
+.bottom-banner {
+    padding: 180px 0;
+}
+
+.bottom-banner .banner__heading {
+    font-size: 40px;
+  	line-height: 1.3;
+  	margin-bottom: 24px;
+}
+
+/* @media only screen and (min-width: 750px) {
+    .image-banner .banner__heading {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+} */
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .image-banner{
+        background-position: center;
+        padding: 60px 0;
+    }
+
+    .image-banner .banner__heading {
+        font-size: 32px;
+        margin-bottom: 0.5em;
+    }
+
+    .image-banner .banner__text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .image-banner a {
+       font-size: 14px;
+       padding: 0 30px;
+       min-width: 40%;
+    }
+
+    .bottom-banner .banner__heading {
+        font-size: 28px;
+      	line-height: 1.3;
+      	margin-bottom: 24px;
+    }    
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .image-banner{
+        padding: 80px 0;
+    }    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .image-banner{
+        padding: 81px 0;
+    }    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .image-banner{
+        padding: 80px 0;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .image-banner{
+        padding: 180px 0;
+    }
+}
+
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px)  {
+    .image-banner{
+        padding: 260px 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1999px)  {
+    .image-banner{
+        padding: 300px 0;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2600px)  {
+    .image-banner{
+        padding: 400px 0;
+    }
+}
+
+
+
+
+/*
+Home
+-------------------------- */
+
+.hero-top-home .banner__heading {
+    font-size: 45px;
+  	margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .hero-top-home .banner__heading,
+    .hero-top-home .banner__buttons {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-top-home .banner__heading {
+        max-width: 100%;
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* ---- Traditional ---- */
+
+.traditional{
+    padding: 80px 0;
+    background: #F2EBE0;
+}
+.traditional h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 48px;
+}
+.traditional .cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.traditional .cookies-detail {
+    margin-bottom: 20px;
+    width: 160px;
+}
+
+.traditional .cookies img{
+    margin: 0 auto 25px;
+    display: table;
+}
+.traditional .cookies h3 span{
+    display: block;
+}
+.traditional .cookies h3{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+}
+
+@media screen and (max-width: 426px) {
+    .traditional {
+        padding: 40px 0;
+    }
+
+    .traditional h2 {
+        font-size: 28px;
+        margin: 0 0 30px;
+    }
+}
+
+
+/* ---- Featured Home Collectiom ---- */
+
+.featured-home-collection {
+    padding: 60px 0 60px;
+    background: #F4CBA0;
+}
+
+.featured-home-collection .featured-home-collection-title {
+    margin-bottom: 40px;
+}
+
+.featured-home-collection h5 {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 8px;
+}
+
+.featured-home-collection h2 {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+}
+
+
+@media screen and (max-width: 426px) {
+    
+    .featured-home-collection .featured-home-collection-title {
+        margin-bottom: 30px;
+    }
+    .featured-home-collection h5 {
+        font-size: 18px;
+    }
+    .featured-home-collection h2 {
+        font-size: 28px;
+    }
+    
+    .slick-slide .products-start {
+        padding-bottom: 0;
+    }
+
+}
+
+
+/* ---- Experience ---- */
+
+.experience{
+    padding: 40px 0 0;
+    background: #F2EBE0;
+}
+
+.experience .left-experince-content{
+    padding: 0 100px;
+}
+
+.experience .left-experince-content h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+
+.experience .left-experince-content p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 24px;
+    color: #202a36;
+}
+
+.experience .left-experince-content .img-with-content h5{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0;
+}
+
+.experience .left-experince-content .img-with-content{
+    margin: 0 0 24px;
+}
+.experience .left-experince-content .img-with-content img{
+    margin: 0 auto; 
+    display: table;
+}
+
+.experience-content {
+    padding: 0 0 130px;
+}
+
+
+/* ---- Reviews ---- */
+
+
+#shopify-section-template--15591267959043__164205219713ac2d98 {
+    background: #F4CBA0;
+}
+
+.okeReviews.okeReviews--theme .okeReviews-reviewsCarousel-slider-slide-inner {
+    background: #F2EBE0;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1439px) {
+    .experience .left-experince-content {
+        padding: 20px 30px 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .experience {
+        padding-top: 10px;
+    }
+    .experience .left-experince-content {
+        padding: 20px 20px 0;
+    }
+
+    .experience .left-experince-content h2 {
+        font-size: 30px;
+    }
+}
+
+/* ---- Testimonials ---- */
+
+.testimonals{
+    padding: 60px 0;
+    background: #F4CBA0;
+}
+
+.testimonals h3{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 56px;
+}
+
+.testimonals .slider-section{
+    background: #e5e5e5;
+    padding: 40px 80px;
+
+}
+
+.testimonals .slider-section h4{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #202a36;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+
+}
+
+.testimonals .slider-section .slider-content{
+
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 6px 6px #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.testimonals .slider-section .slider-content h2{
+
+    font-size: 16px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #202a36;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.testimonals .slider-section .slider-content h6 i{
+    font-size: 16px;
+    color: #f4cba0;
+}
+
+.testimonals .slider-section .slider-content h5{
+    font-size: 16px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #202a36;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+
+}
+.testimonals .slider-section .slider-content p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    opacity: 0.7;
+}
+
+.testimonals .slider-section .slider-content h6{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+.testimonals .slider-section .slick-prev:before{
+    font-size: 32px;
+}
+
+.testimonals .slider-section .slick-next:before{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 426px) {
+    .testimonals h3 {
+        font-size: 28px;
+    }
+}
+
+/** ---- About ----  */
+
+.about-home{
+    padding: 80px 0;
+    background: #F2EBE0;
+}
+.about-home h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 24px;
+}
+.about-home a:hover{
+    background: #E53924;
+}
+
+
+@media screen and (max-width: 426px) {
+    .about-home h2 {
+        font-size: 28px;
+    }
+}
+
+/*
+Shop
+-------------------------- */
+
+
+/* ---- Collection Jumpmenu ----  */
+
+.collection-jumpmenu {
+    padding: 60px 0 40px;
+}
+
+header .collection-jumpmenu {
+    border-top: solid 1px;
+    padding: 10px 0 14px;
+    display: none;
+}
+
+.collection-jumpmenu .jumpmenu-collection-title {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.collection-jumpmenu .product-form__input--dropdown {
+    max-width: 300px;
+}
+
+header.darkHeader .collection-jumpmenu {
+    display: block;
+}
+
+.collection-jumpmenu .select__select {
+    font-size: 20px;
+}
+
+#gift-card .card-information .price  {
+    display: none!important;
+}
+
+@media screen and (max-width: 426px) {
+    .collection-jumpmenu .select__select {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 987px) {
+    .card-information+.card {
+        margin-bottom: 30px!important;
+    }
+}
+
+/* ---- Featured Collection ----  */
+
+.featured-collection-heading {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #005CFF;
+    text-transform: initial;
+    margin: 0 0 24px;
+    padding: 0 20px;
+}
+
+.jump-collection-section .row {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+
+/*
+Products
+------------------------  */
+
+.products{
+    padding: 60px 0 0;
+    background: #F4CBA0;
+}
+.products h5{
+    font-family: Neue Haas Unica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 10px;
+
+}
+.products h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    color: #005CFF;
+}
+
+.products-start {
+    padding-right: 0;
+    position: relative;
+    height: 100%;
+    padding-bottom: 60px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.products-start h3 a{
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 10px;
+    display: block;
+}
+.products-start h3 a:hover{
+    text-decoration: underline;
+}
+.products-start p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+    margin: 0 0 5px;
+}
+
+.products-start a.button-shop-now {
+    font-size: 16px;
+    line-height: 1.5;
+    background: #e53924;
+    padding: 16px;
+    display: block;
+    
+    text-align: center;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    color: #f2ebe0;
+    margin: 0 auto;
+    transition: .5s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    text-transform: uppercase;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    display: inline-block;
+    width: auto;
+    padding: 16px 40px;    
+}
+
+.products-start a.button-shop-now:hover{
+    background: #005fff;
+}
+
+.products-start .card-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.products-start .card-information__text {
+    padding-right: 0;
+}
+
+.products-start .card-information {
+    padding-bottom: 70px;
+} 
+
+.products-start .card-information .price-item--regular {
+    font-family: 'New Spirit';
+    font-weight: bold;
+}
+
+.products-start .card--product {
+    min-height: auto;
+    background: transparent;
+    border: none!important;
+}
+
+
+@media screen and (max-width: 426px) {
+    .product__info-container .product__title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    .products-start a.button-shop-now {
+        font-size: 14px;
+        min-height: 4.5rem;
+        padding: 0 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+}
+
+
+/* ---- Products Single ----  */
+
+.product__info-container {
+
+}
+
+.product__info-container .right-content {
+    padding: 20px 30px;
+}
+
+.product__info-container .product__title {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.3;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+
+#MainContent .product__info-container .product-form, 
+#MainContent .product__info-container .product__description {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0 0 24px;
+}
+
+
+.product__info-container .product-form__input {
+    max-width: 100%;
+}
+
+.product__info-container .product-form__input  .form__label {
+    display: none;
+}
+.product__info-container .product-form__input .select {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #202a36;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.product__info-container .product-form__input .select .icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    right: 20px;
+    color: #005cff;
+    transform: translateY(-50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
+
+.product__info-container .product-form__input .select__select {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    padding: 15px 56px 15px 20px;
+    height: auto;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    color: #005CFF;
+    appearance: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.product-form__buttons button {
+    width: 100%;
+    display: block;
+}
+
+.right-content .raize__accordion {
+    border-top: none;
+    border-left: none;
+    border-right: none;    
+    border-top: solid 1px rgba(var(--color-foreground),.08);
+}
+
+.right-content .raize__accordion:last-child {
+    border-bottom: solid 1px rgba(var(--color-foreground),.08);
+}
+
+.product__accordion details summary {
+    align-items: center;
+}
+
+.product__accordion .accordion__content {
+    background: #f2ebe0;
+    border: 1px solid rgba(var(--color-foreground),.08);;
+    border-bottom: none;
+    padding: 16px 20px!important;
+    margin-bottom: 0;
+}
+
+.product__accordion .accordion__content p {
+    font-size: 16px;
+}
+
+.product__accordion .accordion__title {
+    padding: 1rem 0;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #005CFF; 
+}
+
+.product__accordion .summary__title+.icon-caret {
+    width: 35px!important;
+    height: 10px!important;
+    color: #005CFF;
+}
+
+.raize__accordion p {
+    margin-bottom: 30px;
+}
+
+.raize__accordion__faq h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* ---- Products Details ----  */
+
+.product-detail .answer-slider{
+    width: 191px;
+    height: 290px;
+    margin: 0 auto;
+    display: table;
+}
+.product-detail img{
+    opacity: 1;
+    width: 100%;
+}
+.product-detail{
+    padding: 0 0 75px;
+}
+
+.product-detail .right-content .star-reviews{
+    display: flex;
+    align-items: center;
+    margin: 0 0 23px;
+}
+
+.product-detail .right-content .star-reviews h4{
+    margin: 0;
+}
+.product-detail .right-content .star-reviews h4 i{
+    font-size:24px;
+    color: #202a36;
+}
+.product-detail .right-content .star-reviews h3{
+    font-family: Neue Haas Unica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0 0 0 16px;
+}
+.product-detail .right-content h4{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #005CFF;
+    margin: 0 0 23px;
+}
+.product-detail .right-content p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0 0 40px;
+}
+.product-detail .right-content select:focus{
+    box-shadow: inherit;
+}
+.product-detail .right-content select{
+    background-color: #F2EBE0;
+    border: 1px solid #202a36;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 84px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #005CFF;
+    margin: 0 0 50px;
+    padding: 25px;
+    appearance: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-image: url(select-arrow.png) !important;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 6%;
+
+}
+
+.product-detail .right-content {
+    padding: 0 100px;
+
+}
+
+.product-detail .right-content a:hover{
+    background: #005CFF;
+}
+.product-detail .right-content a{
+
+    background: #E53924;
+    border-radius: 30px;
+    display: block;
+    height: 79px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #F2EBE0;
+    margin: 0 0 60px 0;
+    transition: .5s all ease-in-out;
+
+}
+.product-detail .right-content .accordion-button:focus{
+    box-shadow: inherit;
+    border-color: #D2D1D1;
+}
+.product-detail .right-content #accordionExample .accordion-item button{
+    background: #F2EBE0;
+    padding: 1rem 0;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #005CFF;
+}
+.product-detail .right-content #accordionExample .accordion-collapse .accordion-body{
+    background: #f2ebe0;
+    border: 2px solid #D2D1D1;
+    border-bottom: none;
+
+}
+.product-detail .right-content #accordionExample .accordion-item{
+    border: 2px solid #D2D1D1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.product-detail .slick-current .product-nav-img img{
+    border: 1px solid #005CFF;
+}
+
+.product-detail .slider-nav{
+    height: 300px;
+}
+.product-detail .slider-nav .slick-slide{
+    width: 90px !important;
+    margin: 0 10px 0 0px;
+}
+.product-detail .draggable{
+    padding: 0 !important;
+}
+.product-detail .slider-nav .product-nav-img{
+    box-sizing: border-box;
+    margin: 50px 0 0 0;
+}
+.product-detail-traditions{
+    background: #F4CBA0;;
+}
+
+
+quantity-input.quantity {
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 426px) {
+    .product-form__input--dropdown {
+        margin-bottom: 30px;
+    }
+    .product__info-container .product-form__input .select {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .product-detail {
+        padding-bottom: 20px;
+    }
+    .product__info-container .right-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .product-detail .slider-nav .product-nav-img {
+        margin-top: 20px;
+    }
+
+}
+
+
+
+/*
+About Us
+-------------------------- */
+
+
+.hero-top-about .banner__heading {
+    font-size: 48px;
+  	line-height: 1.3;
+}
+
+.hero-top-about  .banner__text {
+    font-size: 25px;
+  line-height: 1.3; 
+  margin-bottom: 16px;
+}
+
+
+/* ---- About Us ----  */
+
+.about-banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #202a36;
+    opacity: .5;
+    width: 100%;
+    z-index: -1;
+
+}
+.about-banner{
+    background: url(../images/about-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    padding: 280px 0;
+    position: relative;
+    z-index: 1;
+}
+.about-banner h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F2EBE0;
+    margin: 0 0 25px;
+}
+.about-banner p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F2EBE0;
+    width: 70%;
+    margin: 0 auto;
+}
+.our-story{
+    padding: 100px 0;
+}
+
+.our-story h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+}
+.our-story .story-start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us-content{
+    padding:0 0 40px;
+    margin: 0 0 100px;
+    position: relative;
+}
+.about-us-content:before{
+    content: '';
+    border: 1px solid #202a36;
+    height: 100%;
+    width: 0;
+    left: 50%;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+.about-us-content .padding-right{
+    padding: 0 0 0 15px;
+}
+.about-us-content .padding-left{
+    padding: 0 15px 0 0;
+}
+.about-us-content .content-about{
+    background: #F4CBA0;
+    padding: 90px;
+    margin: 90px 0 0;
+}
+.about-us-content .content-about p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+}
+.about-us-content .content-about h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+.about-us-content img{
+    margin: 35px 0 0;
+}
+.about-us-content .about-numbers{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 100px;
+}
+.about-us-content .about-numbers:before{
+    content: '1';
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #202a36;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Neue Haas Unica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #005CFF;
+    z-index: 1;
+}
+.about-us-content .number-change:before{
+    content: '2';
+}
+.about-us-content .color-change{
+    background: #C4DEFF;
+}
+.about-us-content .number-change-1:before{
+    content: '3';
+}
+.about-us-content .color-change-1{
+    background: #FFC2BD;
+}
+.about-us-content .color-change h2{
+    color: #E53924;
+}
+
+@media screen and (max-width: 426px) {
+   .our-story h2 {
+       font-size: 28px;
+   }
+}
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    .hero-top-about .banner__heading {
+        font-size: 32px;
+      line-height: 1.3
+    }
+
+    .hero-top-about  .banner__text {
+        font-size: 18px;
+      	line-height: 1.3; 
+      	margin-bottom: 16px;
+    }
+
+    .our-story {
+        padding: 40px 0;
+    }
+    .about-us-content:before{
+        content: inherit;
+    }
+    .about-us-content .about-numbers:before{
+        content: inherit;
+    }
+    .about-us-content .number-change:before{
+        content: inherit;   
+    }
+    .about-us-content .number-change-1:before_{
+        content: inherit;
+    }
+    .about-banner{
+            background-position: center center;
+        padding: 80px 0;
+    }
+    .about-banner h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        margin: 0 0 0;
+    }
+    .about-banner p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #F2EBE0;
+        width: 64%;
+        margin: 0 auto;
+    }    
+
+    .about-us-content .content-about{
+        margin: 0;
+        padding: 30px 20px;
+    }
+    .about-us-content .padding-right{
+        padding: 0;
+    }
+    .about-us-content .padding-left{
+        padding: 0;
+    }
+    .about-us-content img{
+        margin: 0;
+    }
+    .about-us-content .about-numbers{
+        margin: 0;
+    }
+    .about-us-content .content-about h2{
+        margin: 0 0 16px;
+            font-size: 22px;
+            line-height: 1.5;
+      padding-left: 16px;
+    }
+    .about-us-content{
+        margin: 0;
+        padding: 0;
+    }    
+  
+  .cookie-maker h2 { 
+    padding-left: 16px; 
+  }
+  .cookie-maker p {
+    padding-left: 16px;
+  }
+}
+
+/* ---- Cookie Maker ----  */
+
+.cookie-maker{
+    background: #F4CBA0;
+    padding: 86px 0 86px;
+}
+.cookie-maker h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #005CFF;
+}
+
+.cookie-maker h2+h2 {
+    margin-bottom: 16px;
+    font-size: 1.2em;
+}
+
+.cookie-maker img{
+    margin: 0 0 24px;
+}
+.cookie-maker p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0 0 16px;
+}
+.cookie-maker .maker-wrapper {
+    padding: 0 30px 0;
+}
+.cookies-display{
+    background: #C4DEFF;
+    padding: 72px 0 72px;
+}
+
+.cookies-display h2 {
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005cff;
+    margin: 0 0 20px;
+}
+
+.cookies-display .cookies-display-start{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.cookies-display .cookies-display-start img{
+    margin: 0 auto 30px;
+    display: table;
+}
+.cookies-display .cookies-display-start h2 span{
+    display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    .cookie-maker .right-maker{
+        padding: 0;
+    }
+    .cookies-display {
+        padding: 70px 0 70px;
+    }
+    .cookies-display h2 {
+        font-size: 28px;
+    }
+
+    .cookie-maker .maker-wrapper {
+        padding: 0;
+    }
+    
+
+}
+
+.cookies-display-section-header {
+    margin-bottom: 48px;
+}
+
+/* ---- Pick Favorite Cookie ----  */
+
+.pick-favorite-cookie-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.pick-favorite-cookie-item {
+    position: relative;
+}
+
+.pick-favorite-cookie-grid .pick-favorite-cookie-item {
+    max-width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-self: center; 
+}
+
+.pick-favorite-cookie-item .pick-favorite-cookie-click-area {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.pick-favorite-cookie-item .pick-favorite-cookie-thumb-wrap {
+    width: 120px;
+    display: block;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.pick-favorite-cookie-thumb-wrap img {
+    object-fit: contain;
+    max-width: 100%;
+    height: 80px;
+    width: 120px;
+}
+
+.pick-favorite-cookie-item .pick-favorite-cookie-label {
+    font-family: 'Sofia Pro';
+    font-weight: normal;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.slick-slide .pick-favorite-cookie-item .pick-favorite-cookie-thumb-wrap {
+    margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 426px) {
+    .pick-favorite-cookie-item {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+
+    .pick-favorite-cookie-item .pick-favorite-cookie-label {
+        font-size: 16px;
+    }
+}
+
+/*
+Rewards
+-------------------------- */
+
+
+.hero-top-rewards.banner__heading {
+    font-size: 48px;
+  	line-height: 1.3;
+  	margin-bottom: 16px;
+}
+
+.hero-top-rewards .banner__text {
+    font-size: 20px;
+  margin-bottom: 24px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .hero-top-rewards.banner__heading {
+        font-size: 32px;
+    }
+
+    .hero-top-rewards .banner__text {
+        font-size: 16px;
+      line-height: 1.5;
+  	margin-bottom: 24px;
+    }
+}
+
+
+/*
+Nutrition
+-------------------------- */
+
+
+.hero-top-nutrition .banner__heading {
+    font-size: 48px;
+  	line-height: 1.3;
+  	margin-bottom: 16px;
+}
+
+.hero-top-nutrition  .banner__text {
+    font-size: 20px;
+}
+
+.nutritions:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #202a36;
+    opacity: .5;
+    z-index: -1;
+}
+.nutritions h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 45px;
+    width: 40%;
+}
+.nutritions p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    width: 55%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .hero-top-nutrition .banner__heading {
+        font-size: 32px;
+      	line-height: 1.3;
+    }
+
+    .hero-top-nutrition  .banner__text {
+        font-size: 16px;
+    }
+}
+
+
+/* ---- How We Do It ----  */
+
+.we-dot-it{
+    background: #F4CBA0;
+    padding: 84px 0 84px;
+}
+
+.we-dot-it h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+
+.we-dot-it p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+    width: 77%;
+    margin: 0 auto;
+}
+
+.we-dot-it .we-do-it-product{
+    margin: 24px 0 0;
+}
+
+.we-dot-it .we-do-it-product h3{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+
+.we-dot-it .we-do-it-product img{
+    margin: 0 0 16px;
+    height: 318px;
+    object-fit: contain;
+}
+
+.we-dot-it .we-do-it-product-1 {
+    padding: 0 30px 0 0;
+}
+.we-dot-it .we-do-it-product-2 {
+    padding: 0 15px;
+}
+.we-dot-it .we-do-it-product-3 {
+    padding: 0 0 0 30px;
+}
+
+.we-dot-it .we-do-it-product p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    .we-dot-it p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .we-dot-it h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #005CFF;
+        margin: 0 0 16px;
+    }
+
+    .we-dot-it .we-do-it-product-1{
+        padding: 0;
+        margin: 20px 0 0;
+    }
+
+    .we-dot-it .we-do-it-product-2{
+        padding: 0;
+        margin: 20px 0 0;
+
+    }
+
+    .we-dot-it .we-do-it-product-3{
+        padding: 0;
+        margin: 20px 0 0;
+
+    }
+
+    .we-dot-it .we-do-it-product h3{
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.3;
+        margin: 0 0 16px;
+    }
+
+    .we-dot-it .we-do-it-product p{
+            font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .we-dot-it .we-do-it-product img{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+}
+
+/* ---- Premium Cookies ----  */
+
+.premium-cookies{
+    padding: 80px 0 80px;
+    position: relative;
+}
+.premium-cookies:before{
+        content: '';
+    background-image: url(cookie-1-top-right.png?v=1640278781);
+    position: absolute;
+    width: 140px;
+    height: 205px;
+    background-repeat: no-repeat;
+    right: 0;
+}
+.premium-cookies:after {
+    content: '';
+    background-image: url(cookie-2-bottom-left.png?v=1640278781);
+    position: absolute;
+    width: 140px;
+    height: 235px;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 5%;
+}
+.premium-cookies h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+.premium-cookies p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+}
+.premium-cookies p a{
+    color: #005CFF;
+}
+.premium-cookies table{
+        margin: 100px auto 0;
+        width: 80%;
+}
+.premium-cookies table thead tr th{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+    padding: 0 0 40px 0;
+    border: none;
+    width: 16.66%;
+}
+.premium-cookies table tbody{
+    border-top: none !important;
+}
+.premium-cookies table tbody tr:nth-child(4){
+    height: 60px;
+}
+.premium-cookies table tbody tr:nth-child(5){
+    height: 60px;
+}
+.premium-cookies table tbody tr:nth-child(6){
+    height: 60px;
+}
+.premium-cookies table tbody tr:nth-child(7){
+    height: 60px;
+}
+.premium-cookies table tbody tr td{
+    border: 3px solid #005CFF;
+    padding: 0;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+}
+.premium-cookies table tbody tr th{
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+}
+.premium-cookies table tbody tr td h5{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202a36;
+}
+.premium-cookies h6{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202a36;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 0;
+
+}
+
+.premium-cookies .premium-cookies-fine-print {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.premium-cookies .table tfoot,
+.premium-cookies .table tfoot td {
+    border: none;
+}
+
+.nutrition-table-container {
+    max-width: 780px;
+    width: 100%;
+    margin: 32px auto 0;
+}
+
+.nutrition-table-container img {
+    width: 100%!important;
+    max-width: auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+ 
+    .premium-cookies:before{
+        content: inherit;
+    }
+    .premium-cookies:after{
+        content: inherit;
+    }
+    .mobil-view-position-change{
+        order: 2;
+    }
+    .product-inner-page h1{
+        text-align: center;
+    }
+    .product-inner-page h6{
+        text-align: center;
+    }
+    .navbar-brand{
+        margin: 0;
+    }
+
+    .premium-cookies h2{
+        margin: 0 0 16px;
+        font-size: 26px;
+        line-height: 1.3;
+    }
+    .premium-cookies p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .premium-cookies table thead tr th {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 0 20px 0;
+    }
+    .premium-cookies table tbody tr td {
+        border: 3px solid #005CFF;
+        padding: 0;
+        height: auto;
+        vertical-align: middle;
+        text-align: center;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+    }
+    .premium-cookies table tbody tr td img{
+        width: 40%;
+    }
+    .premium-cookies table tbody tr td h5 {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #202a36;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .premium-cookies table tbody tr:nth-child(4){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(5){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(6){
+        height: auto;
+    }
+    .premium-cookies table tbody tr:nth-child(7){
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 519px) {
+    
+    .premium-cookies table {
+        margin-top: 60px;
+    }
+
+    .premium-cookies table tbody th img {
+        width: 40px;
+        height: auto;
+        max-width: initial;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    .premium-cookies:before,
+    .premium-cookies:after {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .nutritions{
+            background-position: center;
+            padding: 50px 0;
+    }
+
+    .nutritions h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 46px auto 0;
+        width: 70%;
+        letter-spacing: 1px;
+    }
+    .nutritions p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        width: 55%;
+        margin: 20px auto;
+    }
+    .premium-cookies:before{
+        content: inherit;
+    }
+    .premium-cookies:after{
+        content: inherit;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nutritions{
+        background-position: center;
+        padding: 115px 0;
+    }
+    .nutritions h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto 25px;
+        width: 100%;
+    }
+    .nutritions p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nutritions{
+        background-position: center;
+        padding: 150px 0;
+    }
+    .nutritions h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto 30px;
+        width: 70%;
+    }
+    .nutritions p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        color: #FFFFFF;
+        width: 55%;
+        margin: 0 auto;
+    }
+    .premium-cookies:before{
+        top: 0;
+    }
+    .premium-cookies:after{
+        bottom: -25px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .nutritions {
+        padding: 135px 0;
+    }
+    .nutritions h2 {
+        width: 60%;
+    }
+    .nutritions p {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1444px) {
+    .nutritions {
+        padding: 110px 0;
+    }
+}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) { 
+    .nutritions {
+            padding: 190px 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) { 
+    .nutritions{
+        padding: 230px 0;
+    }
+}
+
+
+/*
+FAQ
+-------------------------- */
+
+.faq-change-color{
+    background: #F4CBA0;
+    padding: 90px 0 70px;
+}
+.faq-change-color h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 24px;
+}
+
+.faq-change-color .shop-now-btn {
+    justify-content: center;
+    display: flex;
+}
+.faq-change-color .shop-now-btn a:hover{
+    background: #005CFF;
+}
+.faq-change-color .shop-now-btn a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #e53924;
+    border-radius: 30px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #f2ebe0;
+    transition: .3s ease-in-out;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+.faq{
+    padding: 80px 0;
+}
+.faq h3{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    color: #005CFF;
+    margin: 0 0 0;
+}
+.faq h4{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #005CFF;
+    margin: 40px 0 40px;
+}
+.faq #accordionExample .accordion-item{
+    background-color:transparent;
+    border: none;
+    margin-bottom: 24px;
+}
+.faq #accordionExample .accordion-item button{
+    background: #005cff;
+    border-radius: 40px;
+    margin: 0;
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    color: #f2ebe0;
+    padding: 25px 40px;
+}
+.faq #accordionExample .accordion-button:focus{
+    box-shadow: inherit;
+    border-color: inherit;
+}
+.faq #accordionExample .accordion-body{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #202a36;
+    margin: 0 0 30px;
+    width: 90%;
+}
+.faq #accordionExample .accordion-button::after{
+    background-image: url(accordion-arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: 100% 100%;
+    width: 35px;
+    height: 35px;
+    margin: 0 25px 0 auto;
+}
+.faq #accordionExample .accordion-button:not(.collapsed)::after{
+    background-image: url(accordion-arrow-down.png);
+    transform: rotate(-90deg);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    .faq h3 {    
+        font-size: 30px;
+    }
+
+    .faq h4 {
+        font-size: 25px;
+    }
+
+   .faq #accordionExample .accordion-item button {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px 30px;
+    }
+
+    .faq #accordionExample .accordion-body {
+        font-size: 14px;
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    .faq-change-color h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.5;
+        text-align: center;
+        color: #005CFF;
+        margin: 0 0 20px;
+    }
+    .faq-change-color .shop-now-btn a {
+        font-size: 14px;
+        min-height: 4.5rem;
+        padding: 0 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+  
+/*
+Get In Touch
+-------------------------- */
+.get-in-touch{
+    padding: 80px 0;
+}
+.get-in-touch p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 40px;
+    color: #202a36;
+    width: 55%;
+}
+.get-in-touch h2{
+    font-family: 'New Spirit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    color: #005CFF;
+    margin: 0 0 16px;
+}
+.get-in-touch input::placeholder{
+    color: #202a36;
+}
+.get-in-touch input{
+    border: 1px solid #202a36;
+    box-sizing: border-box;
+    margin: 0 0 30px;
+    width: 100%;
+    height: 55px;
+    line-height: 1.5;
+    padding: 0 0 0 20px;
+    background: transparent;
+    outline: none;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    color: #202a36;
+}
+.get-in-touch button,
+.shopify-challenge__button.btn {
+    background: #E53924;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .get-in-touch p{
+        width: 100%;    
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto 30px;
+    }
+}
+/*
+Search
+-------------------------- */
+  
+#MainContent .template-search {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    #MainContent .grid--2-col .grid__item {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/*
+Shopping Cart
+-------------------------- */
+
+th.caption-with-letter-spacing {}
+
+.cart-items th {
+    font-size: 16px;
+    color: #005CFF;
+}
+
+.page-your-shopping-cart .title-wrapper-with-link a {
+    color: #E53924;
+}
+
+.page-your-shopping-cart .featured-collection-heading {
+    padding-left: 16px;
+    padding-right: 0;
+}
+
+
+.page-your-shopping-cart .quantity__button svg {
+    width: 1.3rem
+}
+
+#MainContent .template-search button.search__button {
+    height: 37px!important;
+    line-height: 1.5;
+    text-align: center!important;
+    width: 30px!important;
+    padding: 10px 10px!important;
+    width: 60px!important;
+}
+
+.page-your-shopping-cart .cart__footer {
+    margin-bottom: 48px;
+}
+
+
+.icon-remove {
+    color: #fff;
+}
+
+button.quantity__button {
+    width: 50px!important;
+    height: 50px!important;
+    padding: 10px!important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 519px) {
+    .cart-item cart-remove-button {
+        margin-top: 1rem;
+        margin-left: 0!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .cart-item cart-remove-button {
+        margin-top: 1rem;
+    }
+}
+
+/*
+Extras
+-------------------------- */
+
+#shopify-section-template--15591268286723__1641291733e2341a23 {
+    margin-top: 80px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    .how-it-work h2 { 
+        font-size: 28px;
+        line-height: 1.3;
+    }
+}
+  
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    .earn-points h2 {
+        font-size: 28px; 
+    }
+}
+  
+.shopify-policy__title {
+    margin-top: 80px;
+}
+  
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+.premium-cookies {
+ padding: 40px 0 40px;
+ position: relative;
+}
+}
+  
+ @media only screen and (min-width: 300px) and (max-width: 519px) {
+  .experience-content {
+    padding: 0 0 80px;
+  }
+ }
+  
+   @media only screen and (min-width: 300px) and (max-width: 519px) {
+  .about-home {
+    padding: 80px 0;
+    background: #F2EBE0;
+  }
+   }
+  
+     @media only screen and (min-width: 300px) and (max-width: 519px) {
+	.about-us-content .content-about p {
+      padding-left: 16px; 
+    } 
+     }

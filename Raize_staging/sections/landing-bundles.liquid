@@ -1,0 +1,209 @@
+<style>
+    section.landing-bundles {
+        background: #F4CBA0;
+    }
+    section.landing-bundles .content{
+        width: 1200px;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+    section.landing-bundles h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 109.3%;
+        margin-bottom: 60px;
+    }
+    section.landing-bundles .bundle-list .bundle-item {
+        width: 33.33%;
+        padding-right: 31px;
+        padding-left: 31px;
+        text-align: center;
+    }
+    section.landing-bundles .bundle-list .bundle-item img {
+        margin-bottom: 20px;
+    }
+    section.landing-bundles .bundle-list .bundle-item .okeReviews.okeReviews--theme{
+        text-align: center;
+    }
+    section.landing-bundles .bundle-list .bundle-item .okeReviews-reviewsSummary-ratingCount span {
+        display: none;
+    }
+    section.landing-bundles .bundle-list .bundle-item h2 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 31px;
+        text-align: center;
+        color: #035DFF;
+        margin-bottom: 14px;        
+    }
+    section.landing-bundles .bundle-list .bundle-item p {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #212529;     
+        min-height: 100px;
+    }
+    section.landing-bundles .bundle-list .bundle-item a {
+        padding: 20px 42px;
+        background-color: rgba(229,57,36,1);
+        border-radius: 100px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-weight: 900;        
+    }
+    section.landing-bundles .bundle-list {
+        display: flex;
+    }
+    @media (max-width:1200px) {
+        
+        section.landing-bundles .content {
+            width: 100%;
+        }
+        section.landing-bundles .bundle-list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        section.landing-bundles .bundle-list .bundle-item {
+            width: 50%;
+            padding-top: 50px;
+        }
+        section.landing-bundles h1 {
+            margin-bottom: 0px;
+        }
+        section.landing-products .icon-list .icon-item {
+            width: 140px;
+        }
+
+    }
+    @media (max-width:800px) {
+        section.landing-bundles .content {
+            width: 500px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        section.landing-bundles .content h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 109.3%;
+        }
+        section.landing-bundles .bundle-list {
+            display: block;
+        }
+        section.landing-bundles .bundle-list .bundle-item {
+            padding-right: 0px;
+            padding-left: 0px;
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        section.landing-bundles .bundle-list .bundle-item:last-child {
+            margin-bottom: 0px;
+        }
+        section.landing-bundles .bundle-list .bundle-item img {
+            width: 100%;
+        }
+        section.landing-bundles .bundle-list .bundle-item a {
+            padding: 20px 85px;
+        }
+    }
+     @media (max-width:600px) {
+        .modal {
+            padding-top: 130px !important;
+        }
+        .modal-content {
+            width: 320px !important;
+            height: 500px !important;
+            padding: 10px !important;
+        }
+        section.landing-bundles .content {
+            width: 400px;
+        }
+        .modal-content .faq-list .faq-item h1 {
+            padding-right: 20px;
+        }
+     }
+     @media (max-width:500px) {
+        section.landing-bundles .content {
+            width: 100%;
+        }
+     }
+</style>
+<section class="landing-bundles">
+    <div class="content">
+        <h1>{{section.settings.main_title}}</h1>
+        {% if section.blocks.size > 0 %}
+            <div class="bundle-list">
+                {% for block in section.blocks %}
+                    <div class="bundle-item">
+                        <img src="{{block.settings.bundle_image | img_url:'master'}}" class="lazyload" alt="">
+                        {% render 'okendo-reviews-product-rating-summary', product: block.settings.bundle_product %}
+                        <h2>{{block.settings.bundle_title}}</h2>
+                        <p>{{block.settings.bundle_subtitle}}</p>
+                        <a href="{{block.settings.btn_url}}">{{block.settings.btn_text}}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Landing Bundles",
+    "settings": [
+        {
+            "type": "text",
+            "id": "main_title",
+            "label": "Main Title"
+        }
+        
+    ],
+    "blocks": [
+        {
+            "type" : "bundle_plan",
+            "name" : "BundleItem",
+            "settings" : [
+                {
+                    "type" : "product",
+                    "id" : "bundle_product",
+                    "label": "Mark Icon"
+                },
+                {
+                    "type": "image_picker",
+                    "id" : "bundle_image",
+                    "label": "Bundle Image"
+                },
+                {
+                    "type" : "text",
+                    "id" : "bundle_title",
+                    "label" : "Bundle Title"
+                },
+                {
+                    "type" : "text",
+                    "id" : "bundle_subtitle",
+                    "label": "Bundle Subtitle"
+                },
+                {
+                    "type" : "text",
+                    "id" : "btn_text",
+                    "label" : "Button Text"
+                },
+                {
+                    "type" : "url",
+                    "id":"btn_url",
+                    "label" : "Button Url"
+                }                
+
+            ]
+        }
+
+    ]    
+}
+{% endschema %}

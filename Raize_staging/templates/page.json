@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "1641350517c9146c72": {
+      "type": "image-banner",
+      "blocks": {
+        "1641350517e34cefec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cut the carbs,",
+            "heading_size": "medium"
+          }
+        },
+        "d8d15fec-d754-48b3-b4dd-00464b0565cc": {
+          "type": "heading",
+          "settings": {
+            "heading": "RAIZE the flavor",
+            "heading_size": "medium"
+          }
+        },
+        "1641350517e34cefec-1": {
+          "type": "text",
+          "settings": {
+            "text": "We’ve reimagined the traditional fresh-baked cookie for a game changing experience that you can enjoy daily."
+          }
+        },
+        "1641350517e34cefec-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1641350517e34cefec-0",
+        "d8d15fec-d754-48b3-b4dd-00464b0565cc",
+        "1641350517e34cefec-1",
+        "1641350517e34cefec-2"
+      ],
+      "settings": {
+        "css_class_override": "hero-top-nutrition",
+        "image": "shopify:\/\/shop_images\/nutrition-banner.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1637361071233d58fb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"traditional\">\n        <div class=\"container\">\n            <h2>We’ve reinvented the traditional cookie<\/h2>\n            <div class=\"cookies\">\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nosugar.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>No Added Sugar<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'lowcarb.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>Low Carb <span>(1-3g Net Carbs)<\/span><\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'glutenfree.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>Gluten-free<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nosweet.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>No Artificial Sweeteners <span>or Preservatives<\/span><\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nongmo.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>Non-GMO<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'ketofriendly.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>Keto-friendly<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'kosher.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                    <h3>Certified Kosher<\/h3>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "1637302404101e7e55": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"we-dot-it\">\n    \t<div class=\"container\">\n    \t\t<div class=\"row \">\n    \t\t\t<div class=\"col-12 col-md-12 col-xl-12 col-sm-12 col-lg-12 col-xxl-12\">\n    \t\t\t\t<h2>How do we do it?<\/h2>\n    \t\t\t\t<p>We remove all added sugars and refined grains. No artificial sweeteners here - we’ve created a proprietary blend of stevia, monk fruit, and erythritol. Instead of grains, we use almond, hazelnut, and coconut flours.<\/p>\n    \t\t\t\t<div class=\"row align-items-start\">\n    \t\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4\">\n    \t\t\t\t\t\t<div class=\"we-do-it-product we-do-it-product-1\">\n    \t\t\t\t\t\t\t<img src=\"{{ 'we-dot-it-1.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n    \t\t\t\t\t\t\t<h3>Stevia Extract<\/h3>\n    \t\t\t\t\t\t\t<p>Stevia extract comes from a plant native to South America and has been used there as a sweetener for over 1,500 years. Stevia extract contains various antioxidants and has zero calories and zero glycemic impact.<\/p>\n    \t\t\t\t\t\t<\/div>\n    \t\t\t\t\t<\/div>\n    \t\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4\">\n    \t\t\t\t\t\t<div class=\"we-do-it-product we-do-it-product-2\">\n    \t\t\t\t\t\t\t<img src=\"{{ 'we-dot-it-2.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n    \t\t\t\t\t\t\t<h3>Monk Fruit Extract<\/h3>\n    \t\t\t\t\t\t\t<p>Monk fruit extract comes from a fruit native to southern China and northern Thailand. Its usage dates to 13th-century Buddhist monks. Monk fruit extract is high in antioxidants and contains zero calories and has zero glycemic impact.<\/p>\n    \t\t\t\t\t\t<\/div>\n    \t\t\t\t\t<\/div>\n    \t\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4\">\n    \t\t\t\t\t\t<div class=\"we-do-it-product we-do-it-product-3\">\n    \t\t\t\t\t\t\t<img src=\"{{ 'we-dot-it-3.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n    \t\t\t\t\t\t\t<h3>Erythritol<\/h3>\n    \t\t\t\t\t\t\t<p>Erythritol is found naturally in some fruits, mushrooms, and fermented foods, or it’s created from the fermentation of non-GMO corn. Erythritol acts similarly to fiber in the digestive process and has zero glycemic impact.<\/p>\n    \t\t\t\t\t\t<\/div>\n    \t\t\t\t\t<\/div>\n\n    \t\t\t\t<\/div>\n    \t\t\t<\/div>\n    \t\t<\/div>\n    \t<\/div>\n    <\/section>"
+      }
+    },
+    "1637096722f83b2a04": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"premium-cookies\">\n    \t<div class=\"container\">\n    \t\t<div class=\"row\">\n    \t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n    \t\t\t\t<h2>See How We Stack Up Against Other Premium Cookies<\/h2>\n    \t\t\t\t<p>For complete nutrition labels, click <a href=\"https:\/\/www.eatraize.com\/pages\/detailed-nutrition-facts\" target=\"_blank\">HERE<\/a><\/p>                      \n    \t\t\t<\/div>\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n                    <div class=\"nutrition-table-container\">\n                        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0607\/0937\/2163\/files\/jantable_1.png?v=1648238843\" alt=\"\">\n                    <\/div>\n                <\/div>\n    \t\t<\/div>\n    \t<\/div>\n    <\/section>"
+      }
+    },
+    "1641350319f3667ea8": {
+      "type": "image-banner",
+      "blocks": {
+        "16413503199f7091aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enjoy our game-changing cookies",
+            "heading_size": "medium"
+          }
+        },
+        "16413503199f7091aa-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16413503199f7091aa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16413503199f7091aa-0",
+        "16413503199f7091aa-1",
+        "16413503199f7091aa-2"
+      ],
+      "settings": {
+        "css_class_override": "bottom-banner",
+        "image": "shopify:\/\/shop_images\/affiliate-banner_b5a96c6d-53d7-46a5-b86b-70ce31e5ab53.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642051823d1190d87": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "0f6fae12-74c9-45b7-a95d-f0cacdcfce74": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "0f6fae12-74c9-45b7-a95d-f0cacdcfce74"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1641350517c9146c72",
+    "1637361071233d58fb",
+    "1637302404101e7e55",
+    "1637096722f83b2a04",
+    "1641350319f3667ea8",
+    "main",
+    "1642051823d1190d87"
+  ]
+}

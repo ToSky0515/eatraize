@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "1639091043e0a16593": {
+      "type": "image-banner",
+      "blocks": {
+        "6ef64cc1-9e88-4ba4-931c-43ef5ae37042": {
+          "type": "text",
+          "settings": {
+            "text": "Our Mission"
+          }
+        },
+        "16390910437e1826cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "To help you enjoy more dessert and feel good about it",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "6ef64cc1-9e88-4ba4-931c-43ef5ae37042",
+        "16390910437e1826cd-0"
+      ],
+      "settings": {
+        "css_class_override": "hero-top-about",
+        "image": "shopify:\/\/shop_images\/about-banner.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16388330583b3672d6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"our-story\">\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-8 col-xl-8 col-xxl-8\">\n\t\t\t\t<div class=\"story-start\">\n\t\t\t\t\t<img src=\"{{ 'Mask_Group.png' | file_img_url: '500x500' }}\" \/>\n\t\t\t\t\t\t<h2>Our Story<\/h2>\n\t\t\t\t\t<img src=\"{{ 'woman.png' | file_img_url: '500x500' }}\"\/>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/section>"
+      }
+    },
+    "1637098353dec55f3a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"about-us-content\">\n\t<div class=\"container\">\n\t\t<div class=\"about-numbers\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-right mobil-view-position-change\">\n\t\t\t\t\t<div class=\"content-about\">\n\t\t\t\t\t\t<h2>How it all began<\/h2>\n\t\t\t\t\t\t<p>A few years ago, our founder Zach took an interest in the health and nutrition space. He wanted to learn how his diet was affecting  both his ability to lose fat and his chances of maximizing his overall health goals of increasing longevity, lowering inflammation, boosting energy levels, and generally feeling great. As he started reviewing the science, it became clear that the key to a healthy diet is to eat less sugar and fewer refined, high-glycemic carbs. With that knowledge, he started following a low-carb and keto diet himself.<\/p>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-left\">\n\t\t\t\t\t<img src=\"{{ 'about_4.png' | file_img_url: '650x650' }}\" class=\"img-fluid\" alt=\"img\">\n\t\t\t\t<\/div>\n\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t<div class=\"about-numbers number-change\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-right\">\n\t\t\t\t\t<img src=\"{{ 'about-2.png' | file_img_url: '650x650' }}\" class=\"img-fluid\" alt=\"img\">\n\t\t\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-left\">\n\t\t\t\t\t<div class=\"content-about color-change\">\n\t\t\t\t\t\t<h2>Finding healthy desserts without sacrificing taste<\/h2>\n\t\t\t\t\t\t<p>The problem? While Zach would follow his diet most of the time, he found himself “cheating” to indulge in his favorite food: dessert. Cutting dessert out for a healthy lifestyle was not a sustainable or enjoyable option for him, so he began his search for a delicious low-sugar, low-carb cookie. He found that the current dessert options were either filled with unhealthy preservatives or didn’t taste as good; the store-bought options could not compare to a freshly-baked dessert, and the very limited fresh-baked options didn’t scratch his itch for a real cookie!<\/p>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"about-numbers number-change-1\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-right mobil-view-position-change\">\n\t\t\t\t\t<div class=\"content-about color-change-1\">\n\t\t\t\t\t\t<h2>Developing the RAIZE product<\/h2>\n\t\t\t\t\t\t<p>This experience led Zach to partner with a seasoned chef, RAIZE’s Chief Product Officer Jeff Yoskowitz, to create healthy cookies that you could confuse for the full-sugar option. With his background as the former Program Director\/Lead Instructor for the Pastry and Baking Arts Department at the Institute of Culinary Education, Jeff employed his culinary knowledge to marry great taste with the latest health needs.<\/p><p>\n\t\t\t\t\t\t<\/p><p>And RAIZE was born – a dessert so good that you could confuse it for the real thing. Come enjoy dessert again, with RAIZE.<\/p>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 padding-left\">\n\t\t\t\t\t<img src=\"{{ 'about-3.png' | file_img_url: '650x650' }}\" class=\"img-fluid\" alt=\"img\">\n\t\t\t\t<\/div>\n\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/section>"
+      }
+    },
+    "164140412151c0e86f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"cookie-maker\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6\">\n                <div class=\"maker-wrapper\">\n\t\t\t\t    <img src=\"{{ 'maker-1.png' | asset_url }}\" class=\"img-fluid\" alt=\"\">\n\t\t\t\t    <h2>Zach Ranen<\/h2>\n\t\t\t\t    <h2>Founder and CEO<\/h2>\n\t\t\t\t    <p>First and foremost, I am a dessert lover. I’m also an avid follower of all things health, fitness, and nutrition science. This combination led me to found RAIZE after struggling to find great healthy desserts. Prior to founding RAIZE, I worked in the finance industry at Warburg Pincus, a global growth investor. I’m originally from Baltimore, MD and studied economics at the Wharton School of The University of Pennsylvania.<\/p>\n\t\t\t\t    <p>My friends and family thought I was a bit crazy to leave my finance job to start a bakery, but they became believers at first bite!<\/p>\n                <\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6\">\n\t\t\t\t<div class=\"maker-wrapper\">\n                    <img src=\"{{ 'maker-2.png' | asset_url }}\" class=\"img-fluid\" alt=\"\">\n                    <h2>Jeff Yoskowitz<\/h2>\n                    <h2>Chief Product Officer<\/h2>\n                    <p>I am a classically trained pastry chef with over 30 years of experience in the baking and food industry. Most recently, I was the Program Director\/Lead Instructor for the Pastry and Baking Arts Department at the Institute of Culinary Education in New York City for over a decade. Prior to that, I owned and sold a restaurant and wholesale bakery. I am also a Co-Founder and Partner at Food Startup Help, a firm dedicated to helping entrepreneurs succeed in the food industry.<\/p>\n                    <p>After months of testing recipes and working with different flavors, I am incredibly proud of our cookies at RAIZE. My chef friends can’t believe that we don’t use any added sugar and only low-carb, gluten-free ingredients with no artificial sweeteners!<\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/section>"
+      }
+    },
+    "16370990532db9a371": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"cookies-display d-none d-md-none d-lg-block\">\n    <div class=\"container-fluid\">\n        <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n            <div class=\"cookies-display-section-header\">\n                <h2>Pick your favorite cookie<\/h2>\n            <\/div>\n        <\/div>\n        <div class=\"pick-favorite-cookie-grid\">\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/two-chip\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-1.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Two Chip Cookie<\/h2>\n            <\/div>\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/two-chip-with-choco-peanut-butter-frosting\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-2.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Two Chip &<span> Chocolate Peanut Butter Cookie Sandwich <\/span> <\/h2>\n            <\/div>\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/chocolate-chip-pecan\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-3.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Chocolate Chip <span>Pecan Cookie <\/span><\/h2>\n            <\/div>\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/chocolate-chip-pecan-with-coffee-frosting\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-4.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Chocolate Chip Pecan <span>& Coffee Cookie Sandwich<\/span> <\/h2>\n            <\/div>\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/maple-walnut\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-5.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Maple Walnut Cookie<\/h2>\n            <\/div>\n            <div class=\"pick-favorite-cookie-item\">\n                <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/maple-walnut-with-cinnamon-frosting\"><\/a>\n                <div class=\"pick-favorite-cookie-thumb-wrap\">\n                    <img src=\"{{ 'cookies-display-6.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <h2 class=\"pick-favorite-cookie-label\">Maple Walnut &<span> Cinnamon Cookie Sandwich<\/span> <\/h2>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/section>\n\n<section class=\"cookies-display d-block d-md-block d-lg-none\">\n    <div class=\"container-fluid\">\n        <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n            <div class=\"cookies-display-section-header\">\n                <h2>Pick your favorite cookie<\/h2>\n            <\/div>\n        <\/div>\n        <div class=\"row cookies-display-start\">\n            <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n                <div class=\"choclate\">\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/two-chip\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-1.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Two Chip Cookie<\/h2>\n                        <\/div>\n                    <\/div>\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/two-chip-with-choco-peanut-butter-frosting\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-2.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Two Chip &<span>Chocolate Peanut Butter Cookie Sandwich<\/span> <\/h2>\n                        <\/div>\n                    <\/div>\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/chocolate-chip-pecan\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-3.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Chocolate Chip <span>Pecan Cookie<\/span> <\/h2>\n                        <\/div>\n                    <\/div>\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/chocolate-chip-pecan-with-coffee-frosting\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-4.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Chocolate Chip Pecan <span>& Coffee Cookie Sandwich<\/span> <\/h2>\n                        <\/div>\n                    <\/div>\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/maple-walnut\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-5.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Maple Walnut Cookie<\/h2>\n                        <\/div>\n                    <\/div>\n                    <div>\n                        <div class=\"pick-favorite-cookie-item\">\n                            <a class=\"pick-favorite-cookie-click-area\" href=\"\/products\/maple-walnut-with-cinnamon-frosting\"><\/a>\n                            <div class=\"pick-favorite-cookie-thumb-wrap\">\n                                <img src=\"{{ 'cookies-display-6.png' | file_img_url: '120x120' }}\" class=\"img-fluid\" alt=\"img\">\n                            <\/div>\n                            <h2 class=\"pick-favorite-cookie-label\">Maple Walnut &<span>Cinnamon Cookie Sandwich<\/span> <\/h2>\n                        <\/div>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n\n    <\/div>\n<\/section>"
+      }
+    },
+    "1636663077b3780265": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"get-in-touch\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n\t\t\t\t<h2>Get in Touch<\/h2>\n\t\t\t\t<p>Use the form below, or feel free to reach out to us any time at <a href=\"mailto:hello@eatraize.com\">hello@eatraize.com<\/a><\/p>\n\n            <div class=\"raize-contac-form\">\n\n                {%- form 'contact', id: 'ContactForm' -%}\n                    {%- if form.posted_successfully? -%}\n                        <div class=\"form-status form-status-list form__message\" tabindex=\"-1\" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}<\/div>\n                    {%- elsif form.errors -%}\n                        <div class=\"form__message\">\n                            <div class=\"form-status caption-large text-body\" role=\"alert\" tabindex=\"-1\" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}<\/div>\n                        <\/div>\n                        <ul class=\"form-status-list caption-large\" role=\"list\">\n                            <li>\n                            <a href=\"#ContactForm-email\" class=\"link\">\n                                {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}\n                            <\/a>\n                            <\/li>\n                        <\/ul>\n                    {%- endif -%}\n                    <div class=\"field custom-input\">\n                        <input class=\"field__input\" autocomplete=\"name\" type=\"text\" id=\"ContactForm-name\" name=\"contact[{{ 'templates.contact.form.name' | t }}]\" value=\"{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}\" placeholder=\"{{ 'templates.contact.form.name' | t }}\">\n                        <label class=\"field__label\" for=\"ContactForm-name\">{{ 'templates.contact.form.name' | t }}<\/label>\n                    <\/div>\n                    <div class=\"field field--with-error\">\n                        <input\n                        autocomplete=\"email\"\n                        type=\"email\"\n                        id=\"ContactForm-email\"\n                        class=\"field__input\"\n                        name=\"contact[email]\"\n                        spellcheck=\"false\"\n                        autocapitalize=\"off\"\n                        value=\"{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}\"\n                        aria-required=\"true\"\n                        {% if form.errors contains 'email' %}\n                            aria-invalid=\"true\"\n                            aria-describedby=\"ContactForm-email-error\"\n                        {% endif %}\n                        placeholder=\"{{ 'templates.contact.form.email' | t }}\"\n                        >\n                        <label class=\"field__label\" for=\"ContactForm-email\">{{ 'templates.contact.form.email' | t }} <span aria-hidden=\"true\">*<\/span><\/label>\n                        {%- if form.errors contains 'email' -%}\n                        <small class=\"contact__field-error\" id=\"ContactForm-email-error\">\n                            <span class=\"visually-hidden\">{{ 'accessibility.error' | t }}<\/span>\n                            <span class=\"form__message\">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}<\/span>\n                        <\/small>\n                        {%- endif -%}\n                    <\/div>\n                    <div class=\"field custom-input\">\n                        <input type=\"tel\" id=\"ContactForm-phone\" class=\"field__input\" autocomplete=\"tel\" name=\"contact[{{ 'templates.contact.form.phone' | t }}]\" pattern=\"[0-9\\-]*\" value=\"{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}\" placeholder=\"{{ 'templates.contact.form.phone' | t }}\">\n                        <label class=\"field__label\" for=\"ContactForm-phone\">{{ 'templates.contact.form.phone' | t }}<\/label>\n                    <\/div>\n                    <div class=\"field custom-input\">\n                        <input type=\"text\" id=\"ContactForm-message\" class=\"field__input\" name=\"contact[{{ 'templates.contact.form.message' | t }}]\"  value=\"{{- form.body -}}\" placeholder=\"{{ 'templates.contact.form.message' | t }}\">\n                        <label class=\"form__label field__label\" for=\"ContactForm-message\">{{ 'templates.contact.form.message' | t }}<\/label>\n                    <\/div>\n                    <div class=\"submit\">\n                        <button type=\"submit\" class=\"button\">\n                            {{ 'templates.contact.form.send' | t }}\n                        <\/button>\n                    <\/div>\n                {%- endform -%}\n            <\/div>\n\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/section>"
+      }
+    },
+    "1641404167fb1ce154": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<section class=\"game\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n                    <h2>Enjoy our game-changing cookies <\/h2>\n                    <a href=\"product.php\">Shop Now<\/a>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "1641523589217924b1": {
+      "type": "image-banner",
+      "blocks": {
+        "164152358953ce35aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enjoy our game-changing cookies",
+            "heading_size": "medium"
+          }
+        },
+        "164152358953ce35aa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164152358953ce35aa-0",
+        "164152358953ce35aa-2"
+      ],
+      "settings": {
+        "css_class_override": "bottom-banner",
+        "image": "shopify:\/\/shop_images\/game-banner_a9dfd5b4-e07d-4560-a2b9-faf74b0c3e13.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "1639091043e0a16593",
+    "main",
+    "16388330583b3672d6",
+    "1637098353dec55f3a",
+    "164140412151c0e86f",
+    "16370990532db9a371",
+    "1636663077b3780265",
+    "1641404167fb1ce154",
+    "1641523589217924b1"
+  ]
+}

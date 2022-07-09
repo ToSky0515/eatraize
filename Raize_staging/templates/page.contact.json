@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "1636662737559f8ee3": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nutrition_1.png",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1637551023a7127ead": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    }
+  },
+  "order": [
+    "1636662737559f8ee3",
+    "main",
+    "1637551023a7127ead"
+  ]
+}

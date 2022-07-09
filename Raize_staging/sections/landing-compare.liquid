@@ -1,0 +1,326 @@
+<style>
+    section.landing-compare {
+        background: #F4CBA0;
+    }
+
+    section.landing-compare .content{
+        width: 630px;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    section.landing-compare .content h1 {
+        font-family: 'New Spirit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 109.3%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    section.landing-compare .compare-table {
+        display:flex;
+    }
+    section.landing-compare .compare-table .table-col {
+        width: 20%;
+        display: block;
+        opacity: 1;
+    }
+    section.landing-compare .nav-bar {
+        display: none;
+    }
+    section.landing-compare .compare-table .table-col:first-child {
+        width: 150px;
+    }
+    section.landing-compare .compare-table .table-col .table-cell {
+        height: 56px;
+        border-bottom: 1px solid #DCAF80;
+    }
+    section.landing-compare .compare-table .table-col:nth-child(2) {
+        background: #F2EBE0;
+        box-shadow: 0px 1px 6px rgb(0 0 0 / 19%);
+        border-radius: 10px;
+    }
+    section.landing-compare .compare-table .table-col:nth-child(2) .table-cell {
+        border: none;
+    }
+    section.landing-compare .compare-table .table-col .table-cell:first-child img {
+        margin-top: 5px;
+    }
+    section.landing-compare .compare-table .table-col .table-cell:first-child, section.landing-compare .compare-table .table-col .table-cell:last-child {
+        border-bottom: none;
+    }
+    section.landing-compare .compare-table .table-col .table-cell:not(:first-child) label, section.landing-compare .compare-table .table-col .table-cell:not(:first-child) img {
+        margin-top: 15px;
+    }
+    section.landing-compare .compare-table .table-col:not(:first-child) {
+        text-align: center;
+    }
+    @media (max-width: 700px) {
+        section.landing-compare .content {
+            width:100%;
+            padding: 80px 20px;
+        }
+        section.landing-compare .compare-table {
+            width: 325px;
+            margin: auto;
+        }
+        section.landing-compare .content .compare-table .table-col {
+            width: 95px;
+        }
+        section.landing-compare .content .compare-table .table-col:nth-child(2) {
+            width: 105px;
+        }
+        section.landing-compare .content .compare-table .table-col:first-child {
+            width: 125px;
+        }
+        section.landing-compare .nav-bar {
+            display: block;
+        }
+
+        .mySlides {
+            display: none;
+        }
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 5px;
+            border: 1px solid #212529;
+            background-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .dot.active, .dot:hover {
+            background-color: #212529;
+        }
+
+            /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+        .nav-bar {
+                margin-top: 40px;
+            text-align: center;
+        }
+        .nav-bar a {
+            background: #F2EBE0;
+            padding: 8px 14px;
+            border-radius: 50%;
+            color: #212529;
+        }
+    }
+
+</style>
+<section class="landing-compare">
+    <div class="content">
+        <h1>{{section.settings.header_text}}</h1>
+        <div class="compare-table">
+            <div class="table-col">
+                <div class="table-cell">
+                </div>
+                <div class="table-cell">
+                    <label>Net Carbs</label>
+                </div>
+                <div class="table-cell">
+                    <label>Added Sugar</label>
+                </div>
+                <div class="table-cell">
+                    <label>Gluten Free</label>
+                </div>
+                <div class="table-cell">
+                    <label>Keto-Friendly</label>
+                </div>
+                <div class="table-cell">
+                    <label>Fresh Backed</label>
+                </div>
+            </div>
+            {% if section.blocks.size > 0 %}
+                {% assign first_flag = 0 %}
+                {% for block in section.blocks %}
+                    <div class="table-col {% if first_flag == 1 %} mySlides fade {% endif %}">
+                        <div class="table-cell">
+                            <img src="{{block.settings.header_img| img_url:'master'}}">
+                        </div>
+                        <div class="table-cell">
+                            {% if block.settings.netcarbs_val == "p" %}
+                                <img src="{{'Positive.png'|asset_url}}">
+                            {% else %}
+                                {% if block.settings.netcarbs_val == "n" %}
+                                    <img src="{{'Negative.png'|asset_url}}">
+                                {% else %}
+                                    {% if block.settings.netcarbs_val == "c" %}
+                                        <img src="{{'Checked.png'|asset_url}}">
+                                    {% else %}
+                                        <label>{{block.settings.netcarbs_val}}</label>
+                                    {% endif %}                                
+                                {% endif %}
+                            {% endif %}
+                            
+                        </div>
+                        <div class="table-cell">
+                            {% if block.settings.sugar_val == "p" %}
+                                <img src="{{'Positive.png'|asset_url}}">
+                            {% else %}
+                                {% if block.settings.sugar_val == "n" %}
+                                    <img src="{{'Negative.png'|asset_url}}">
+                                {% else %}
+                                    {% if block.settings.sugar_val == "c" %}
+                                        <img src="{{'Checked.png'|asset_url}}">
+                                    {% else %}
+                                        <label>{{block.settings.sugar_val}}</label>
+                                    {% endif %}                                
+                                {% endif %}
+                            {% endif %}                        
+                        </div>
+                        <div class="table-cell">
+                            {% if block.settings.gluten_val == "p" %}
+                                <img src="{{'Positive.png'|asset_url}}">
+                            {% else %}
+                                {% if block.settings.gluten_val == "n" %}
+                                    <img src="{{'Negative.png'|asset_url}}">
+                                {% else %}
+                                    {% if block.settings.gluten_val == "c" %}
+                                        <img src="{{'Checked.png'|asset_url}}">
+                                    {% else %}
+                                        <label>{{block.settings.gluten_val}}</label>
+                                    {% endif %}                                
+                                {% endif %}
+                            {% endif %}       
+                        </div>
+                        <div class="table-cell">
+                            {% if block.settings.keto_val == "p" %}
+                                <img src="{{'Positive.png'|asset_url}}">
+                            {% else %}
+                                {% if block.settings.keto_val == "n" %}
+                                    <img src="{{'Negative.png'|asset_url}}">
+                                {% else %}
+                                    {% if block.settings.keto_val == "c" %}
+                                        <img src="{{'Checked.png'|asset_url}}">
+                                    {% else %}
+                                        <label>{{block.settings.keto_val}}</label>
+                                    {% endif %}                                
+                                {% endif %}
+                            {% endif %}   
+                        </div>
+                        <div class="table-cell">
+                            {% if block.settings.fresh_val == "p" %}
+                                <img src="{{'Positive.png'|asset_url}}">
+                            {% else %}
+                                {% if block.settings.fresh_val == "n" %}
+                                    <img src="{{'Negative.png'|asset_url}}">
+                                {% else %}
+                                    {% if block.settings.fresh_val == "c" %}
+                                        <img src="{{'Checked.png'|asset_url}}">
+                                    {% else %}
+                                        <label>{{block.settings.fresh_val}}</label>
+                                    {% endif %}                                
+                                {% endif %}
+                            {% endif %}   
+                        </div>
+                    </div>
+                    {% assign first_flag = 1 %}
+                {% endfor %}
+            {% endif %}   
+        </div>
+        <div class="nav-bar" >
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <a class="next" onclick="plusSlides(1)">❯</a>   
+        </div>   
+    </div>
+</section>
+<script>
+let slideIndex = 1;
+if(window.innerWidth <= 700) {
+    showSlides(slideIndex);
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  console.log(slideIndex);
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  slides[slideIndex-1].style.opacity = 1; 
+}
+</script>
+{% schema %}
+{
+    "name" : "Landing Reinvent",
+    "settings" : [
+        {
+            "type":"text",
+            "id":"header_text",
+            "label":"Header Title"
+        }
+    ],
+    "blocks": [
+        {
+            "type" : "compare_item",
+            "name" : "Compare Item",
+            "settings" : [
+                {
+                    "type":"image_picker",
+                    "id":"header_img",
+                    "label":"Header Image"
+                },
+                {
+                    "type":"text",
+                    "id":"netcarbs_val",
+                    "label":"Net Carbs Value"
+                },  
+                {
+                    "type":"text",
+                    "id":"sugar_val",
+                    "label":"Added Sugar Value"
+                }, 
+                {
+                    "type":"text",
+                    "id":"gluten_val",
+                    "label":"Gluten Free Value"
+                }, 
+                {
+                    "type":"text",
+                    "id":"keto_val",
+                    "label":"Keto Friendly Value"
+                }, 
+                {
+                    "type":"text",
+                    "id":"fresh_val",
+                    "label":"Fresh Baked Value"
+                }   
+
+            ]
+        }
+
+    ]  
+}
+{% endschema %}

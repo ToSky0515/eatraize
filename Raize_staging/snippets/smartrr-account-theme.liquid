@@ -1,0 +1,157 @@
+{% comment %}
+  This file is maintained by Smartrr. 
+  Use the "Theming" section of the Smartrr app to configure theme settings. 
+{% endcomment %}
+<script>
+if (!window.smartrr) {
+  window.smartrr = {};
+}
+window.smartrr.theme = {
+  "overrideCSS": ".smartrr-portal-delivery-item-variant-select-container{\n\tdisplay:none;\n\t}\n.smartrr-portal-quantity-button{\n  padding:0px !important; \n\t}\n.smartrr-portal-heading-3.smartrr-portal-modify-item-text {\n  text-transform: lowercase;\n  }\n.smartrr-portal-heading-3.smartrr-portal-modify-item-text:first-letter {\n  text-transform: uppercase;\n  }\n.smartrr-portal-heading-2.smartrr-portal-delivery-group-item-header-title-text{\n\tcolor: rgb(0, 92, 255);\n  font-family: 'New Spirit';\n\t}\n.smartrr-portal-tabs-header-wrapper .smartrr-portal-tabs-header-item{\n  text-transform: uppercase;\n  background:#f4cba0;\n  padding: 10px 5px;\n}\n.smartrr-portal-tabs-header-item-active{\n  background:#e53924 !important;\n}\n.smartrr-portal-delivery-group-content-container .smartrr-portal-delivery-group-item-header{\n  background:#f4cba0;\n  border-radius: 8px 8px 0px 0px;\n}\n.smartrr-portal-tabs-header-container{\n  min-width: 50%;\n}\n.smartrr-portal-select-wrapper select{\n  background: transparent;\n  font-size: inherit;\n}\n.smartrr-portal-delivery-addresses-form-row {\n  display: flex;\n  align-items: flex-end;\n}\n.smartrr-portal-group-item-price-lines .smartrr-portal-group-item-price-line > span {\n  font-size: 16px;\n  font-weight:normal;\n}\n.smartrr-portal-upcoming-deliveries .smartrr-portal-group-item-price-line:nth-child(3) span{\n  font-weight:bold;\n}\n.smartrr-portal-order-history .smartrr-portal-group-item-price-lines > .smartrr-portal-group-item-price-line:last-child span{\n  font-weight: bold;\n}\n.smartrr-portal-item-product-price-lines .smartrr-portal-subscription-discount{\n  font-weight: 400;\n}\n.smartrr-portal-group-item-price-lines > span {\n  font-size: 12px;\n  font-weight: normal;\n}\n.smartrr-portal-delivery-group-header .smartrr-portal-delivery-group-date{\n  background:#f4cba0;\n}\n.smartrr-portal-edit-subscription-apply-discount{\n  background:transparent;\n}\n.smartrr-portal-manage-subscriptions-subscription-cancel-button{\n  display: flex;\n  width: 100%;\n  justify-content: flex-start;\n  font-weight: bold;\n  margin:10px 0px 30px 0px;\n}\n.smartrr-portal-delivery-addresses-back-button{\n  color: #f2ebe0;\n  background: #e53924;\n  text-transform: uppercase;\n  min-width: 100%;\n  display:flex;\n  padding:10px;\n\tborder-radius: 22px;\n  justify-content: center;\n}\n.smartrr-portal-delivery-addresses-back-button:hover{\n  background:#005cff;\n  opacity:1;\n  transition: .5s all ease-in-out;\n}\n.smartrr-portal-delivery-group-date-text span{\n  display:content !important;\n  color:#e53924;\n}\n@media screen and (max-width: 768px){\n\t.smartrr-portal-delivery-group-date-text span {\n    display: inline;\n\t}\n}\nbutton:hover{\n  background:#005cff;\n  opacity:1;\n  transition: .5s all ease-in-out;\n  cursor:pointer;\n  color:#ffffff;\n}\n.smartrr-portal-delivery-addresses-editable-section-content{\n  font-weight:normal;\n}\n.smartrr-portal-slide-panel-header h3{\n  font-weight: 700;\n  font-size: 22px;\n  color: #e82d2f;\n}",
+  "primaryColor": "#e53924",
+  "secondaryColor": "#F2EBE0",
+  "mainContentBackgroundColor": "#F2EBE0",
+  "mainContentBorderRadius": 8,
+  "mainContentBorderColor": "#202a36",
+  "mainContentBorderWidth": 1,
+  "loaderPrimaryColor": "#c6c6c6",
+  "loaderSecondaryColor": "#707070",
+  "bodyBackgroundColor": "#F2EBE0",
+  "bodyTextFontFamily": "Sofia Pro",
+  "bodyTextFontWeight": "bold",
+  "bodyTextColor": "#000000",
+  "heading1TextFontFamily": "Sofia Pro",
+  "heading1TextFontSize": 22,
+  "heading1FontWeight": "bolder",
+  "heading1TextColor": "#005cff",
+  "heading2TextFontFamily": "Sofia Pro",
+  "heading2TextFontSize": 16,
+  "heading2FontWeight": "normal",
+  "heading2TextColor": "#000",
+  "heading3TextFontFamily": "Sofia Pro",
+  "heading3TextFontSize": 16,
+  "heading3FontWeight": "normal",
+  "heading3TextColor": "#000",
+  "heading4TextFontFamily": "Sofia Pro",
+  "heading4TextFontSize": 16,
+  "heading4FontWeight": "normal",
+  "heading4TextColor": "#005cff",
+  "buttonBackgroundColor": "#e53924",
+  "buttonFontFamily": "Sofia Pro",
+  "buttonFontSize": 16,
+  "buttonFontWeight": "normal",
+  "buttonTextColor": "#fff",
+  "buttonBorderRadius": 22,
+  "buttonBorderColor": "#e53924",
+  "buttonBorderWidth": 0,
+  "dropdownBackgroundColor": "tranparent",
+  "dropdownTextColor": "#005cff",
+  "dropdownBorderRadius": 22,
+  "dropdownBorderColor": "#202a36",
+  "dropdownBorderWidth": 1,
+  "dropdownFontFamily": "Sofia Pro",
+  "dropdownFontSize": 18,
+  "dropdownFontWeight": "normal",
+  "smallProductImageBorderRadius": 12,
+  "mediumProductImageBorderRadius": 14,
+  "largeProductImageBorderRadius": 16,
+  "purchasableThemes": []
+}
+</script>
+
+<style>
+body {
+  background-color: #F2EBE0;
+  transition: background-color .15s ease-in-out;
+}
+
+#smartrr_account,
+#smartrr_slide_panel,
+#smartrr_toast_container {
+  box-sizing: border-box;
+
+  color: #000000;
+  font-family: Sofia Pro;
+  font-weight: bold;
+  background-color: #F2EBE0;
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+}
+
+#smartrr_account *,
+#smartrr_account *:before,
+#smartrr_account *:after,
+#smartrr_slide_panel *,
+#smartrr_slide_panel *:before,
+#smartrr_slide_panel *:after,
+#smartrr_toast_container *,
+#smartrr_toast_container *:before,
+#smartrr_toast_container *:after {
+  box-sizing: border-box;
+}
+
+#smartrr_toast_container {
+  z-index: 10000001;
+}
+
+#smartrr_toast_container .Toastify__toast-container {
+  z-index: 10000002;
+}
+
+.hide-in-customer-portal {
+  display: none;
+}
+
+#smartrr_account,
+#smartrr_slide_panel,
+#smartrr_toast_container {
+  
+--smartrr-primaryColor: #e53924;
+--smartrr-secondaryColor: #F2EBE0;
+--smartrr-mainContentBackgroundColor: #F2EBE0;
+--smartrr-mainContentBorderRadius: 8px;
+--smartrr-mainContentBorderColor: #202a36;
+--smartrr-mainContentBorderWidth: 1px;
+--smartrr-loaderPrimaryColor: #c6c6c6;
+--smartrr-loaderSecondaryColor: #707070;
+--smartrr-bodyBackgroundColor: #F2EBE0;
+--smartrr-bodyTextFontFamily: Sofia Pro;
+--smartrr-bodyTextFontWeight: bold;
+--smartrr-bodyTextColor: #000000;
+--smartrr-heading1TextFontFamily: Sofia Pro;
+--smartrr-heading1TextFontSize: 22px;
+--smartrr-heading1FontWeight: bolder;
+--smartrr-heading1TextColor: #e53924;
+--smartrr-heading2TextFontFamily: Sofia Pro;
+--smartrr-heading2TextFontSize: 16px;
+--smartrr-heading2FontWeight: normal;
+--smartrr-heading2TextColor: #000;
+--smartrr-heading3TextFontFamily: Sofia Pro;
+--smartrr-heading3TextFontSize: 16px;
+--smartrr-heading3FontWeight: normal;
+--smartrr-heading3TextColor: #000;
+--smartrr-heading4TextFontFamily: Sofia Pro;
+--smartrr-heading4TextFontSize: 16px;
+--smartrr-heading4FontWeight: normal;
+--smartrr-heading4TextColor: #005cff;
+--smartrr-buttonBackgroundColor: #e53924;
+--smartrr-buttonTextColor: #fff;
+--smartrr-buttonFontFamily: Sofia Pro;
+--smartrr-buttonFontSize: 16px;
+--smartrr-buttonFontWeight: normal;
+--smartrr-buttonBorderRadius: 22px;
+--smartrr-dropdownBackgroundColor: tranparent;
+--smartrr-dropdownTextColor: #005cff;
+--smartrr-dropdownFontFamily: Sofia Pro;
+--smartrr-dropdownFontSize: 18px;
+--smartrr-dropdownFontWeight: normal;
+--smartrr-dropdownBorderRadius: 22px;
+--smartrr-buttonBorderColor: #e53924;
+--smartrr-buttonBorderWidth: 0px;
+--smartrr-dropdownBorderColor: #202a36;
+--smartrr-dropdownBorderWidth: 1px;
+--smartrr-smallProductImageBorderRadius: 12px;
+--smartrr-mediumProductImageBorderRadius: 14px;
+--smartrr-largeProductImageBorderRadius: 16px;
+}
+
+</style>

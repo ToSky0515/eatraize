@@ -1,0 +1,691 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#f2ebe0",
+    "colors_accent_1": "#005cff",
+    "colors_accent_2": "#f4cba0",
+    "colors_text": "#005cff",
+    "colors_outline_button_labels": "#8e1616",
+    "colors_background_1": "#f2ebe0",
+    "gradient_background_1": "",
+    "colors_background_2": "#e53924",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "neue_haas_unica_n4",
+    "body_scale": 100,
+    "sale_badge_color_scheme": "accent-2",
+    "page_width": "1600",
+    "social_email_link": "mailto:hello@eatraize.com",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/eat.raize",
+    "social_linkedin_link": "http:\/\/linkedin.com\/company\/eatraize",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/eat.raize\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@eat.raize",
+    "favicon": "shopify:\/\/shop_images\/fav-icon-raize-cookies.png",
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_b0f92392-67b9-4c01-8f0f-2fb6c700adf3.png",
+    "checkout_body_background_color": "#f2ebe0",
+    "checkout_sidebar_background_color": "#f4cba0",
+    "checkout_accent_color": "#005fff",
+    "checkout_button_color": "#005fff",
+    "checkout_error_color": "#e53924",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "FREE SHIPPING on orders over $40",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/251.png",
+          "logo_width": 120,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "d9eece5c-b594-41ca-86f9-c51c02034702": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/EXPORTED_LOGOS-04.png",
+              "image_width": 160,
+              "alignment": "center"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "RAIZE",
+              "menu": "footer"
+            }
+          },
+          "a0e5893d-97bf-4c5e-8c88-1a716552ecaf": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Contact",
+              "menu": "contact"
+            }
+          },
+          "3e6dc173-70a4-4414-b7b4-b60b98ee1a87": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "d9eece5c-b594-41ca-86f9-c51c02034702",
+          "footer-0",
+          "a0e5893d-97bf-4c5e-8c88-1a716552ecaf",
+          "3e6dc173-70a4-4414-b7b4-b60b98ee1a87"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Never miss out on updates",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": false
+        }
+      },
+      "main-header": {
+        "type": "main-header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/EXPORTED_LOGOS-01_3.png",
+          "logo_width": 150,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "main-footer": {
+        "type": "main-footer",
+        "blocks": {
+          "79245ecb-1104-43bb-bff0-d9b2fbdf827e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/footer-logo.png",
+              "image_width": 215,
+              "alignment": "center"
+            }
+          },
+          "976c129f-a6a1-420a-8648-bca310d1f108": {
+            "type": "link_list",
+            "settings": {
+              "heading": "RAIZE",
+              "menu": "footer"
+            }
+          },
+          "48dae021-16cf-4eac-8296-80ec9793b825": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Contact",
+              "menu": "contact"
+            }
+          }
+        },
+        "block_order": [
+          "79245ecb-1104-43bb-bff0-d9b2fbdf827e",
+          "976c129f-a6a1-420a-8648-bca310d1f108",
+          "48dae021-16cf-4eac-8296-80ec9793b825"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "settings": {
+          "color_scheme": "background-1",
+          "full_width": true
+        }
+      },
+      "image-with-text": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2022-01-31_at_8.10.53_PM.png",
+          "height": "adapt",
+          "color_scheme": "background-1",
+          "layout": "image_first"
+        }
+      },
+      "custom-liquid": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": ""
+        }
+      },
+      "landing-first": {
+        "type": "landing-first",
+        "settings": {
+          "banner_img": "shopify:\/\/shop_images\/first_back_mob.png",
+          "main_title": "The First Keto Cookie<br>That Actually Tastes<br>Delicious",
+          "sub_title": "No Added Sugar, Low Carb, Keto-Friendly, Glueten-Free, but baked with ALL the Flavor!",
+          "btn_text": "SHOP NOW",
+          "btn_url": "",
+          "sub_text": "100% Happiness Guarantee"
+        }
+      },
+      "landing-best": {
+        "type": "landing-best",
+        "settings": {
+          "author_img": "shopify:\/\/shop_images\/author_img.png",
+          "review_title": "Best Keto Cookies on the Market",
+          "review_text": "\"These cookies are so delicious, and the texture is fantastic. My whole family loved them, whether they had diet restrictions or not!\"",
+          "author_name": "Abbey P.",
+          "author_type": "Verified Buyer"
+        }
+      },
+      "landing-talking": {
+        "type": "landing-talking",
+        "blocks": {
+          "5c2fa261-8585-414c-9af4-74cefecfb9d9": {
+            "type": "icon",
+            "settings": {
+              "mark_icon": "shopify:\/\/shop_images\/Group_45.png",
+              "mark_text": "No Added Sugar"
+            }
+          },
+          "160c354b-ef81-4df0-8e30-24c96de5b273": {
+            "type": "icon",
+            "settings": {
+              "mark_icon": "shopify:\/\/shop_images\/Group_58.png",
+              "mark_text": "Keto Friendly<br>(1~3g net carbs)"
+            }
+          },
+          "4ed4d2a7-91ee-4069-b70f-4a361ae222fe": {
+            "type": "icon",
+            "settings": {
+              "mark_icon": "shopify:\/\/shop_images\/Group_49.png",
+              "mark_text": "Gluten-free"
+            }
+          },
+          "7ce9a673-959e-4294-95c8-55a05677a349": {
+            "type": "icon",
+            "settings": {
+              "mark_icon": "shopify:\/\/shop_images\/Group_50.png",
+              "mark_text": "No Artificial Sweeteners or Preservatives"
+            }
+          }
+        },
+        "block_order": [
+          "5c2fa261-8585-414c-9af4-74cefecfb9d9",
+          "160c354b-ef81-4df0-8e30-24c96de5b273",
+          "4ed4d2a7-91ee-4069-b70f-4a361ae222fe",
+          "7ce9a673-959e-4294-95c8-55a05677a349"
+        ],
+        "settings": {
+          "banner_img": "shopify:\/\/shop_images\/talking_image.png",
+          "mob_banner_img": "shopify:\/\/shop_images\/a972a30e-mask-group-6-1_1000000000000000000028.png",
+          "main_title": "Taste What Everyone's Talking About",
+          "sub_title": "You shouldn't stress about eating a cookie. You won't find any cookies as healthy, as tasty, and as fresh as ours."
+        }
+      },
+      "landing-bundles": {
+        "type": "landing-bundles",
+        "blocks": {
+          "51b1bfa5-0ed3-48c4-a7c7-bf2a948503d9": {
+            "type": "bundle_plan",
+            "settings": {
+              "bundle_product": "the-cookie-sandwich-pack",
+              "bundle_image": "shopify:\/\/shop_images\/4_1.png",
+              "bundle_title": "The Cookie Sandwich Pack",
+              "bundle_subtitle": "What’s better than a cookie? Two cookies in a cookie a sandwich with your favorite filling in between.",
+              "btn_text": "EXPLORE BUNDLE",
+              "btn_url": "shopify:\/\/products\/the-cookie-sandwich-pack"
+            }
+          },
+          "87903468-0c2c-40df-957b-08dd3beb099d": {
+            "type": "bundle_plan",
+            "settings": {
+              "bundle_product": "the-cookie-pack",
+              "bundle_image": "shopify:\/\/shop_images\/2_80707146.png",
+              "bundle_title": "The Cookie Pack",
+              "bundle_subtitle": "3 of our best-selling, mouth-watering flavors, all in one pack",
+              "btn_text": "EXPLORE BUNDLE",
+              "btn_url": "shopify:\/\/products\/the-cookie-pack"
+            }
+          },
+          "619c42df-1daa-4b07-b56a-a35c08d959d5": {
+            "type": "bundle_plan",
+            "settings": {
+              "bundle_product": "the-raize-pack",
+              "bundle_image": "shopify:\/\/shop_images\/17_Square_1.png",
+              "bundle_title": "The RAIZE Pack",
+              "bundle_subtitle": "Can’t decide? Have your cookies and cookie sandwiches, and eat them too.",
+              "btn_text": "EXPLORE BUNDLE",
+              "btn_url": "shopify:\/\/products\/the-raize-pack"
+            }
+          }
+        },
+        "block_order": [
+          "51b1bfa5-0ed3-48c4-a7c7-bf2a948503d9",
+          "87903468-0c2c-40df-957b-08dd3beb099d",
+          "619c42df-1daa-4b07-b56a-a35c08d959d5"
+        ],
+        "settings": {
+          "main_title": "Explore Our Best Keto Cookie Bundles"
+        }
+      },
+      "landing-products": {
+        "type": "landing-products",
+        "blocks": {
+          "e584be4d-0dbc-46dd-9c63-ef06ea1d0535": {
+            "type": "product_item",
+            "settings": {
+              "item_product": "the-cookie-pack",
+              "item_price": "29",
+              "product_img_1": "shopify:\/\/shop_images\/product_img1.png",
+              "product_img_2": "shopify:\/\/shop_images\/cookie2.png",
+              "product_img_3": "shopify:\/\/shop_images\/cookie3.png",
+              "product_img_4": "shopify:\/\/shop_images\/cookie4.png",
+              "product_name": "The Cookie Pack (12 Cookies)",
+              "product_subtitle": "Zero added sugar, only 1g Net Carbs per cookie",
+              "product_description": "Cookies without the crash. Our cookies are keto-friendly and gluten-free, but most of all, they taste GREAT.<a> See ingredients and nutrition facts<\/a>\n<br><br>\nOne Cookie Pack contains one dozen cookies (4 of each flavor)!\n<br><br>\n<b>Includes:<\/b>\n<br><br>\n<b>4x Two Chip<br>\n4x Chocolate Chip Pecan<br>\n4x Double Chocolate<\/b>",
+              "extra_text1": "FREE U.S. SHIPPING on orders $40+",
+              "extra_text2": "Happiness guarantee | 100% customer satisfaction",
+              "review_title": "Amazing flavor and taste",
+              "review_text": "These are the best sugar free\/keto cookies I have every purchased. They actually look and taste homemade and you can't tell they don't include sugar. I highly recommend these cookies.",
+              "author_name": "Ashely D.",
+              "author_type": "Verified buyer"
+            }
+          },
+          "ee586e6f-0786-4010-b1f2-cd83306d9aec": {
+            "type": "product_item",
+            "settings": {
+              "item_product": "the-cookie-sandwich-pack",
+              "item_price": "29",
+              "product_img_1": "shopify:\/\/shop_images\/4_1_696897da-fd37-49a3-a163-680539427e20.png",
+              "product_img_2": "shopify:\/\/shop_images\/20b7d51f-13square-700x700-6-1_10da0da000000000000028.png",
+              "product_img_3": "shopify:\/\/shop_images\/3aa5ba9b-9-square-2-1_10da0da000000000000028.png",
+              "product_img_4": "shopify:\/\/shop_images\/155c8d28-double-chocolate-sandwich-2-1_10da0da000000000000028.png",
+              "product_name": "The Cookie Sandwich Pack (6 Sandwiches)",
+              "product_subtitle": "Zero added sugar, only 3g Net Carbs per cookie sandwich",
+              "product_description": "Two cookies held together with our delicious filling. Our cookies are keto-friendly and gluten-free. Twice the amount of cookie to enjoy with every bite.<br>\n<a>See ingredients and nutrition facts<\/a>\n<br><br>\nThis variety pack contains one half-dozen cookie sandwiches.\n<br><br>\n<b>\nIncludes:\n<br><br>\n2x Two Chip & Chocolate Peanut Butter<br>\n2x Chocolate Chip Pecan & Coffee<br>\n2x Double Chocolate & Fudge\n\n<\/b>",
+              "extra_text1": "<br>",
+              "extra_text2": "Happiness guarantee | 100% customer satisfaction",
+              "review_title": "These are so amazing!",
+              "review_text": "The cookie sandwiches are really delicious! I love them all! All three have their own perfect flavor combination. They just really hit the spot. They're so satisfying, I constantly crave them. They are by far the best low carb cookie (and dessert for that matter!) I've ever had! You cracked the code!",
+              "author_name": "Neal",
+              "author_type": "Verified buyer"
+            }
+          },
+          "b292f86a-cdf4-447b-bc74-f60785d067d2": {
+            "type": "product_item",
+            "settings": {
+              "item_product": "the-raize-pack",
+              "item_price": "58",
+              "product_img_1": "shopify:\/\/shop_images\/db29bd59-17-square-3-1_10da0da000000000000028.png",
+              "product_img_2": "shopify:\/\/shop_images\/0dc311f8-13square-700x700-4-7_10da0da000000000000028.png",
+              "product_img_3": "shopify:\/\/shop_images\/20b7d51f-13square-700x700-6-1_10da0da000000000000028_4dcb7441-b66b-4b16-85ec-af2b0cbef12e.png",
+              "product_img_4": "shopify:\/\/shop_images\/3aa5ba9b-9-square-2-1_10da0da000000000000028.png",
+              "product_name": "The RAIZE Pack (12 Cookies & 6 Sandwiches)",
+              "product_subtitle": "Zero added sugar, only 1g Net Carbs per cookie Zero added sugar, only 3g Net Carbs per cookie sandwich",
+              "product_description": "With the RAIZE Pack, get one box each of our delicious cookies and cookie sandwiches to try all of the flavors. <a>See ingredients and nutrition facts<\/a>\n<br><br>\n<b>\nIncludes:\n<br><br>\n2x Two Chip & Chocolate Peanut Butter<br>\n2x Chocolate Chip Pecan & Coffee<br>\n2x Double Chocolate & Fudge\n4x Two Chip<br>\n4x Chocolate Chip Pecan<br>\n4x Double Chocolate\n<\/b>",
+              "extra_text1": "FREE U.S. SHIPPING on orders $40+",
+              "extra_text2": "Happiness guarantee | 100% customer satisfaction",
+              "review_title": "Amazing flavor and taste",
+              "review_text": "These are the best sugar free\/keto cookies I have every purchased. They actually look and taste homemade and you can't tell they don't include sugar. I highly recommend these cookies.",
+              "author_name": "Ashely D.",
+              "author_type": "Verified buyer"
+            }
+          }
+        },
+        "block_order": [
+          "e584be4d-0dbc-46dd-9c63-ef06ea1d0535",
+          "ee586e6f-0786-4010-b1f2-cd83306d9aec",
+          "b292f86a-cdf4-447b-bc74-f60785d067d2"
+        ],
+        "settings": {}
+      },
+      "landing-footer": {
+        "type": "landing-footer",
+        "blocks": {
+          "c77b909b-60e7-4687-984b-742db61cc21d": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/272939560_1551335185238771_3709458543559939002_n_1.png"
+            }
+          },
+          "89d6f269-ed52-481a-aa04-0440606aefab": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/277850673_840041640719043_3904585367312583860_n_1.png"
+            }
+          },
+          "fda69dc7-326d-44da-bd21-541e79a518df": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/273504857_690771221917894_342810545005941673_n_1.png"
+            }
+          },
+          "54fa51cb-0b11-4387-838a-df2859f744c5": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/275062368_130061219559230_492190889730321754_n_1.png"
+            }
+          },
+          "df26e22a-b992-4044-b3d7-5a515990fc90": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/280707145_4844851705644375_4037014299111245478_n_1.png"
+            }
+          },
+          "a54c2f6b-d2bf-4ad8-96bf-21c8d73a895b": {
+            "type": "footer_img_item",
+            "settings": {
+              "img_item": "shopify:\/\/shop_images\/278940236_304145015199841_7744203231651706144_n_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "c77b909b-60e7-4687-984b-742db61cc21d",
+          "89d6f269-ed52-481a-aa04-0440606aefab",
+          "fda69dc7-326d-44da-bd21-541e79a518df",
+          "54fa51cb-0b11-4387-838a-df2859f744c5",
+          "df26e22a-b992-4044-b3d7-5a515990fc90",
+          "a54c2f6b-d2bf-4ad8-96bf-21c8d73a895b"
+        ],
+        "settings": {}
+      },
+      "landing-faq": {
+        "type": "landing-faq",
+        "blocks": {
+          "69ba2d00-d325-459b-9808-ce9a46d804bc": {
+            "type": "faq_itme",
+            "settings": {
+              "item_question": "How do subscriptions work?",
+              "item_answer": "When you create a RAIZE cookie subscription, you save 10% on all orders.  You can cancel your subscription at any time you want, and you will recieve a notification each time before your next order ships in case you would like to make any changes. Once you create a subscription, it is easy to swap products from one delivery to the next, gift your next subscription order to a friend, skip a shipment altogether, or get your next shipment sent right away if you're out of cookies!  Cookie subscribers will also recieve first access to trying new flavors, and don't be surprised if you get a freebie in your box every now and then!"
+            }
+          },
+          "90fa4246-76cc-4f18-9537-3ff828ead1d0": {
+            "type": "faq_itme",
+            "settings": {
+              "item_question": "How do I store my cookies?",
+              "item_answer": "<br> Keep your cookies wrapped airtight: - In the freezer for up to 3 months <br> - In the fridge for up to 1 month<br> - At room temperature for up to 2 weeks<br>  Prior to enjoying, allow to reach room temperature, or (for the non-cookie-sandwiches) warm in <br>the oven to achieve that just-baked feel!"
+            }
+          },
+          "b126603a-c161-47f1-b412-da0925d646d3": {
+            "type": "faq_itme",
+            "settings": {
+              "item_question": "Are RAIZE cookies soft or hard\/crunchy?",
+              "item_answer": "RAIZE cookies are soft and bakery-fresh!"
+            }
+          },
+          "c8ea98e0-97e7-4845-8409-80c8da0985a8": {
+            "type": "faq_itme",
+            "settings": {
+              "item_question": "Where can I find a full list of ingredients and nutrition facts?",
+              "item_answer": "These can be found in the product descriptions above! Just click on \"See ingredients and nutrition facts.\""
+            }
+          }
+        },
+        "block_order": [
+          "69ba2d00-d325-459b-9808-ce9a46d804bc",
+          "90fa4246-76cc-4f18-9537-3ff828ead1d0",
+          "b126603a-c161-47f1-b412-da0925d646d3",
+          "c8ea98e0-97e7-4845-8409-80c8da0985a8"
+        ],
+        "settings": {
+          "header_text": "FAQ",
+          "button_text": "EXPLORE BUNDLE",
+          "button_url": ""
+        }
+      },
+      "landing-reinvent": {
+        "type": "landing-reinvent",
+        "blocks": {
+          "ce0ee09e-0f67-41a9-a5ff-b9b1a2967683": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_45_fbb3cd83-ffb5-49f5-989e-7e553743c723.png",
+              "item_desc": "No Added Sugar"
+            }
+          },
+          "6b6f843e-0123-4a95-9a1e-d22c3602d84b": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_49_ee93b8d7-01da-4c80-8e4d-597087866b51.png",
+              "item_desc": "Gluten-free"
+            }
+          },
+          "01ef349a-89e7-4639-b666-1b61c6fde4e3": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_56.png",
+              "item_desc": "Non-GMO"
+            }
+          },
+          "e10909f4-4c1b-4130-ba9e-efc5e98ebf07": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_54.png",
+              "item_desc": "Keto-friendly"
+            }
+          },
+          "e9e52038-3cb6-4707-8dbd-89d7799c8780": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_50_1.png",
+              "item_desc": "No Artificial Sweeteners or Preservatives"
+            }
+          },
+          "a1e99870-9a15-4d7b-9f1e-f3ed6ffcc554": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_57.png",
+              "item_desc": "Certified Kosher"
+            }
+          },
+          "a12afdd8-d5ef-4808-bf40-51377579afae": {
+            "type": "icon_item",
+            "settings": {
+              "icon_item": "shopify:\/\/shop_images\/Group_46.png",
+              "item_desc": "Low Carb (1-3g Net Carbs)"
+            }
+          }
+        },
+        "block_order": [
+          "ce0ee09e-0f67-41a9-a5ff-b9b1a2967683",
+          "6b6f843e-0123-4a95-9a1e-d22c3602d84b",
+          "01ef349a-89e7-4639-b666-1b61c6fde4e3",
+          "e10909f4-4c1b-4130-ba9e-efc5e98ebf07",
+          "e9e52038-3cb6-4707-8dbd-89d7799c8780",
+          "a1e99870-9a15-4d7b-9f1e-f3ed6ffcc554",
+          "a12afdd8-d5ef-4808-bf40-51377579afae"
+        ],
+        "settings": {
+          "header_text": "We’ve reinvented the traditional cookie"
+        }
+      },
+      "landing-mission": {
+        "type": "landing-mission",
+        "settings": {
+          "back_img": "shopify:\/\/shop_images\/20_2.png",
+          "header_text": "Our Mission",
+          "subtitle": "We want to help you enjoy dessert &  feel good about it too!",
+          "content_text": "Removing dessert from your life is not a sustainable, tasty, or enjoyable option. We've tried it. It's not fun. That’s why we began our search for a delicious low-sugar, low-carb cookie. <br><br>We created RAIZE after struggling to find desserts that were healthy AND actually tasted great. That's why we brought on a seasoned pastry chef to create the bakery we've always wanted. No more compromising.",
+          "button_text": "Explore Bundle",
+          "btn_url": ""
+        }
+      },
+      "landing-compare": {
+        "type": "landing-compare",
+        "blocks": {
+          "2cbceb44-cc58-4d56-b565-6693443408a3": {
+            "type": "compare_item",
+            "settings": {
+              "header_img": "shopify:\/\/shop_images\/EXPORTED_LOGOS-01_3_150x_2x_3.png",
+              "netcarbs_val": "1g",
+              "sugar_val": "0g",
+              "gluten_val": "p",
+              "keto_val": "p",
+              "fresh_val": "p"
+            }
+          },
+          "54b4c345-ccc7-4f35-97cd-aecd96ee3035": {
+            "type": "compare_item",
+            "settings": {
+              "header_img": "shopify:\/\/shop_images\/Average_Bakery_Cookie.png",
+              "netcarbs_val": ">20g",
+              "sugar_val": ">20g",
+              "gluten_val": "Maybe",
+              "keto_val": "n",
+              "fresh_val": "c"
+            }
+          },
+          "a52115cb-8836-40d1-8a90-a7ae28f9dc1f": {
+            "type": "compare_item",
+            "settings": {
+              "header_img": "shopify:\/\/shop_images\/MomofukuMilkBar_1.png",
+              "netcarbs_val": "21g",
+              "sugar_val": "12g",
+              "gluten_val": "n",
+              "keto_val": "n",
+              "fresh_val": "c"
+            }
+          },
+          "458cba3a-b6a7-4f0f-b2a5-f5591fbb9054": {
+            "type": "compare_item",
+            "settings": {
+              "header_img": "shopify:\/\/shop_images\/tates-logo_1.png",
+              "netcarbs_val": "22g",
+              "sugar_val": "15g",
+              "gluten_val": "n",
+              "keto_val": "n",
+              "fresh_val": "n"
+            }
+          },
+          "b9c3bef2-8281-47c4-936b-eb323ab5266b": {
+            "type": "compare_item",
+            "settings": {
+              "header_img": "shopify:\/\/shop_images\/Frame_1.png",
+              "netcarbs_val": "1g",
+              "sugar_val": "0g",
+              "gluten_val": "c",
+              "keto_val": "c",
+              "fresh_val": "n"
+            }
+          }
+        },
+        "block_order": [
+          "2cbceb44-cc58-4d56-b565-6693443408a3",
+          "54b4c345-ccc7-4f35-97cd-aecd96ee3035",
+          "a52115cb-8836-40d1-8a90-a7ae28f9dc1f",
+          "458cba3a-b6a7-4f0f-b2a5-f5591fbb9054",
+          "b9c3bef2-8281-47c4-936b-eb323ab5266b"
+        ],
+        "settings": {
+          "header_text": "How We Compare"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

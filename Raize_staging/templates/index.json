@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "163893218213eba368": {
+      "type": "image-banner",
+      "blocks": {
+        "16389321822624be44-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Modern Cookie.",
+            "heading_size": "medium"
+          }
+        },
+        "cb1f2f7b-1368-4f2f-bf25-afbeb6fcb595": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fresh Baked, Delivered Nationwide.",
+            "heading_size": "medium"
+          }
+        },
+        "16389321822624be44-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16389321822624be44-0",
+        "cb1f2f7b-1368-4f2f-bf25-afbeb6fcb595",
+        "16389321822624be44-2"
+      ],
+      "settings": {
+        "css_class_override": "hero-top-home",
+        "image": "shopify:\/\/shop_images\/landing.png",
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "left",
+        "show_text_box": false,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16365609919c1bad17": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"traditional\">\n        <div class=\"container\">\n            <h2>We’ve reinvented the traditional cookie<\/h2>\n            <div class=\"cookies\">\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nosugar.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>No Added Sugar<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\" >\n                    <img src=\"{{ 'lowcarb.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>Low Carb <span>(1-3g Net Carbs)<\/span><\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'glutenfree.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>Gluten-free<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nosweet.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>No Artificial Sweeteners <span>or Preservatives<\/span><\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'nongmo.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>Non-GMO<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'ketofriendly.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>Keto-friendly<\/h3>\n                <\/div>\n                <div class=\"cookies-detail\">\n                    <img src=\"{{ 'kosher.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\" alt=\"\">\n                    <h3>Certified Kosher<\/h3>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "16415923310a35daac": {
+      "type": "featured-home-collection",
+      "settings": {
+        "title": "Featured Home collection",
+        "collection": "all-6",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637375746176b237b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"experience\">\n        <div class=\"container-fluid\">\n            <div class=\"experience-content\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6\" >\n                    <img src=\"{{ 'experience-1.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6\" >\n                    <div class=\"left-experince-content\">\n                      <h2>Experience the trifecta<\/h2>\n                    <p>Never stress about eating a cookie. You won’t find any cookies as <strong>healthy<\/strong>, as <strong>tasty<\/strong>, and as <strong>fresh<\/strong> as ours.<\/p>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'img-with-content-1.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5>No-sugar-added, low-carb, and gluten-free. No artificial sweeteners or preservatives. Our cookies don’t compromise on <strong>health<\/strong> so that you can enjoy any time, any day.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'img-with-content-2.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5><strong>Taste<\/strong> you can confuse for the real thing. Yup, these healthy cookies are craveable too.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'freshbaked.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5>Baked <strong>fresh<\/strong> and delivered to your door. No preservatives or sitting in warehouses.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>  \n                    <div class=\"shop-now-btn\">\n                        <a href=\"\/collections\/all\">SHOP NOW<\/a>\n                    <\/div>\n                    <\/div>\n                    \n                <\/div>\n\n            <\/div>\n            <\/div>\n            <div class=\"experience-content\">\n            <div class=\"row align-items-center\">\n                \n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 mobil-view-position-change\" >\n                    <div class=\"left-experince-content\">\n                      <h2>Carefully chosen ingredients<\/h2>\n                    <p>We formulated our recipes to provide you the benefits you asked for without sacrificing the taste you want. Our proprietary sweetener blend contains:<\/p>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'img-with-content-4.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5>Stevia extract, a natural sweetener in use for over 1,500 years. Stevia extract contains various antioxidants and has zero calories or glycemic impact.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'img-with-content-5.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5>Monk fruit extract, a natural sweetener used in Eastern medicine for centuries. Monk fruit extract is high in antioxidants and has zero calories or glycemic impact.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"img-with-content\">\n                        <div class=\"row align-items-center\">\n                            <div class=\"col-2 col-md-2 col-sm-2 col-lg-2 col-xl-1 col-xx-1\">\n                                <img src=\"{{ 'img-with-content-6.png' | asset_url }}\" class=\"img-fluid\"  alt=\"img\">\n                            <\/div>\n                            <div class=\"col-10 col-md-10 col-sm-10 col-lg-10 col-xl-11 col-xx-11\">\n                                <h5>Erythritol, which is derived from plants and acts similarly to fiber, so it has no glycemic impact.<\/h5>\n                            <\/div>\n                        <\/div>\n                    <\/div>  \n                    <div class=\"shop-now-btn\">\n                        <a href=\"\/pages\/nutrition\">LEARN MORE<\/a>\n                    <\/div>\n                    <\/div>\n                    \n                <\/div>\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6\" >\n                    <img src=\"{{ 'experience-2.png' | asset_url }}\" class=\"img-fluid\" alt=\"img\">\n                <\/div>\n\n            <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "164205219713ac2d98": {
+      "type": "apps",
+      "blocks": {
+        "e7388ab0-0b66-41ce-ae55-9be7262b6fc6": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": true,
+            "heading": "See what our customers are saying",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "e7388ab0-0b66-41ce-ae55-9be7262b6fc6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "163728439555b24d66": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"about-home\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center\">\n                    <h2>Want to eat more dessert and feel good about it? Us too.<\/h2>\n                    <a href=\"\/pages\/about-us\">ABOUT US<\/a>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "1639087658f4e4e853": {
+      "type": "image-banner",
+      "blocks": {
+        "1639087658d19fb969-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enjoy our game-changing cookies",
+            "heading_size": "medium"
+          }
+        },
+        "1639087658d19fb969-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1639087658d19fb969-0",
+        "1639087658d19fb969-2"
+      ],
+      "settings": {
+        "css_class_override": "bottom-banner",
+        "image": "shopify:\/\/shop_images\/game-banner_a9dfd5b4-e07d-4560-a2b9-faf74b0c3e13.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1636297387da64b35c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"blue-content\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12\">\n                    <h2>Connect with us on Instagram <a href=\"https:\/\/www.instagram.com\/eat.raize\/\" target=\"_blank\">@eat.raize<\/a><\/h2>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>"
+      }
+    },
+    "1637107720c59c56b3": {
+      "type": "apps",
+      "blocks": {
+        "e45648a5-1227-43bf-bbec-ad4fcac9163f": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 10,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e45648a5-1227-43bf-bbec-ad4fcac9163f"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "163893218213eba368",
+    "16365609919c1bad17",
+    "16415923310a35daac",
+    "1637375746176b237b",
+    "164205219713ac2d98",
+    "163728439555b24d66",
+    "1639087658f4e4e853",
+    "1636297387da64b35c",
+    "1637107720c59c56b3"
+  ]
+}

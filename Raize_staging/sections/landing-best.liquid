@@ -1,0 +1,159 @@
+<style>
+    section.landing-best {
+        min-height: 420px;
+        background: rgba(244,203,160,1);
+        position: relative;
+    }
+    section.landing-best .content {
+        min-height: 300px;
+        width: 820px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: auto;
+        display: flex;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        position: absolute;
+        top: 50%;
+    }
+    section.landing-best .content .author_img {
+
+    }
+    section.landing-best .content .author_review {
+        padding: 33px;
+        border-radius: 0px 10px 10px 0;
+        background: #F2EBE0;
+    }
+    section.landing-best .content .author_review img {
+        margin-bottom: 20px;
+    }
+    section.landing-best .content .author_review .review_title {
+        color: #212529;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 25px;        
+    }
+    section.landing-best .content .author_review .review_text {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #212529;
+    }
+    section.landing-best .content .author_review .author_name {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgb(33, 37, 41);        
+    }
+    section.landing-best .content .author_review .author_type img {
+        margin-bottom: 5px;
+        padding-right: 8px;
+    }
+    section.landing-best .content .author_review .author_type {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #4C4C4C;
+        margin-bottom: 0;
+    }
+    section.landing-best .content .author_img_mob {
+        display: none;
+    }
+    @media (max-width: 992px) {
+        section.landing-best .content {
+            width: 100%;
+            background: rgba(244,203,160,1);
+            padding: 20px;
+            display: block;
+        }
+        section.landing-best .content .author_img {
+            display: none;
+        }
+        section.landing-best .content .author_review {
+            border-radius: 10px 10px 0px 0px;
+            padding: 20px;
+        }
+        section.landing-best .content .author_img_mob {
+            display: block;
+        }
+        section.landing-best .content .author_img_mob img {
+            width: 100%;
+            border-radius: 0px 0px 10px 10px;
+        }
+        section.landing-best {
+            min-height: 700px;
+        }
+        section.landing-best .content {
+            position: unset;
+            transform: unset;
+        }
+        section.landing-best {
+            padding-top: 60px;
+            padding-bottom: 60px;            
+        }
+    }
+</style>
+
+<section class="landing-best">
+    <div class="content">
+        <div class="author_img">
+            <img src="{{section.settings.author_img | img_url: 'master'}}">
+        </div>
+        <div class="author_review">
+            <img src="{{ 'full_review.svg' | asset_url }}">
+            <h1 class="review_title">{{section.settings.review_title}}</h1>
+            <p class="review_text">{{section.settings.review_text}}</p>
+            <h2 class="author_name">{{section.settings.author_name}}</h2>
+            <p class="author_type"><img src="{{'verify.png' | asset_url }}">{{section.settings.author_type}}</p>
+        </div>
+        <div class="author_img_mob">
+            <img src="{{section.settings.author_img | img_url: 'master'}}">
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Landing Best",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "author_img",
+            "label": "Author Image"
+        },
+        {
+            "type": "text",
+            "id": "review_title",
+            "label": "Review Title"
+        },
+        {
+            "type": "text",
+            "id": "review_text",
+            "label": "Review Text"
+        },
+        {
+            "type": "text",
+            "id": "author_name",
+            "label": "Author Name"
+        },
+        {
+            "type": "text",
+            "id": "author_type",
+            "label": "Author Type"
+        },
+        {
+            "type": "image_picker",
+            "id": "review_img",
+            "label": "Review Image"
+        }
+    ]
+}
+{% endschema %}
